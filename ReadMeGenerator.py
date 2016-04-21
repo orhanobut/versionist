@@ -24,9 +24,9 @@ def addItem(title, compileType,  dependency):
   file.write("```groovy\n// " + title.upper() + "\n")
   file.write(compileType + " '" + dependency + "'\n```\n")
 
-def addList(list):
+def addList(compileType, list):
   for pair in list:
-    addItem(pair.title,'compile', pair.dependency)
+    addItem(pair.title, compileType, pair.dependency)
 
 def getSoup(url):
   return BeautifulSoup(urllib2.urlopen(url).read().decode('utf-8'), 'html.parser')
@@ -42,7 +42,7 @@ def addEspresso(url):
       title = tag
     if tag['class'][0] == 's1':
       list.append(Pair(title.string[3:], tag.string[1:-1]))
-  addList(list)
+  addList('androidTestCompile', list)
 
 def addAndroidStudio(url):
   soup = getSoup(url)
@@ -74,7 +74,7 @@ def addGooglePlayService(url):
       list.append(pair)
   except Exception, e:
     pass
-  addList(list)
+  addList('compile', list)
 
 def generateSupportLibraries(url):
   soup = getSoup(url)
@@ -89,7 +89,7 @@ def generateSupportLibraries(url):
       pair = Pair(title, str(tag.string).encode('string_escape')[2:-2])
       list.append(pair)
 
-  addList(list)
+  addList('compile', list)
 
 def addMavenRepo(title, compileType, groupId, artifactId):
   url = 'https://maven-badges.herokuapp.com/maven-central/' + groupId+'/' + artifactId
@@ -100,7 +100,7 @@ def addMavenRepo(title, compileType, groupId, artifactId):
   dependency= list[1] + ":" + list[2] + ":" + list[3]
   addItem(compileType, title, dependency)
 
-with open('../README.md', 'w+') as file:
+with open('README.md', 'w+') as file:
   addHeader("Android Platform")
   generatePlatform('http://developer.android.com/guide/topics/manifest/uses-sdk-element.html')
 
@@ -119,9 +119,8 @@ with open('../README.md', 'w+') as file:
   addMavenRepo('testCompile','Mockito','org.mockito', 'mockito-core')
   addMavenRepo('testCompile','AssertJ','org.assertj', 'assertj-core')
   addMavenRepo('testCompile','Robolectric','org.robolectric', 'robolectric')
-  addMavenRepo('testCompile','Robolectric','org.robolectric', 'shadows-support-v4')
-  addMavenRepo('testCompile','Robolectric','org.robolectric', 'shadows-play-services')
-  addMavenRepo('testCompile','MockServer','com.squareup.okhttp3', 'mockwebserver')
+  addMavenRepo('testCompile','Robolectric Shadows Support v4','org.robolectric', 'shadows-support-v4')
+  addMavenRepo('testCompile','Robolectric Shadows Play Services','org.robolectric', 'shadows-play-services')
   addMavenRepo('testCompile','MockServer','com.squareup.okhttp3', 'mockwebserver')
 
   addHeader("Others")
@@ -129,5 +128,5 @@ with open('../README.md', 'w+') as file:
   addMavenRepo('compile','OkHttp3','com.squareup.okhttp3', 'okhttp')
   addMavenRepo('compile','OkHttp3 Logging Interceptor','com.squareup.okhttp3', 'logging-interceptor')
 
-with open('../README.md') as file:
+with open('README.md') as file:
   print file.read()

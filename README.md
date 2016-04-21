@@ -280,27 +280,27 @@ compile 'com.android.support:recommendation:23.3.0'
 # Test
 ```groovy
 // ANDROID JUNIT RUNNER
-compile 'com.android.support.test:runner:0.5'
+androidTestCompile 'com.android.support.test:runner:0.5'
 ```
 ```groovy
 // JUNIT4 RULES
-compile 'com.android.support.test:rules:0.5'
+androidTestCompile 'com.android.support.test:rules:0.5'
 ```
 ```groovy
 // ESPRESSO CORE
-compile 'com.android.support.test.espresso:espresso-core:2.2.2'
+androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2'
 ```
 ```groovy
 // ESPRESSO-CONTRIB FOR DATEPICKER, RECYCLERVIEW, DRAWER ACTIONS, ACCESSIBILITY CHECKS, COUNTINGIDLINGRESOURCE
-compile 'com.android.support.test.espresso:espresso-contrib:2.2.2'
+androidTestCompile 'com.android.support.test.espresso:espresso-contrib:2.2.2'
 ```
 ```groovy
 // ESPRESSO-WEB FOR WEBVIEW SUPPORT
-compile 'com.android.support.test.espresso:espresso-web:2.2.2'
+androidTestCompile 'com.android.support.test.espresso:espresso-web:2.2.2'
 ```
 ```groovy
 // ESPRESSO-IDLING-RESOURCE FOR SYNCHRONIZATION WITH BACKGROUND JOBS
-compile 'com.android.support.test.espresso:espresso-idling-resource:2.2.2'
+androidTestCompile 'com.android.support.test.espresso:espresso-idling-resource:2.2.2'
 ```
 ```groovy
 // JUNIT
@@ -319,16 +319,12 @@ testCompile 'org.assertj:assertj-core:3.4.1'
 testCompile 'org.robolectric:robolectric:3.0'
 ```
 ```groovy
-// ROBOLECTRIC
+// ROBOLECTRIC SHADOWS SUPPORT V4
 testCompile 'org.robolectric:shadows-support-v4:3.0'
 ```
 ```groovy
-// ROBOLECTRIC
+// ROBOLECTRIC SHADOWS PLAY SERVICES
 testCompile 'org.robolectric:shadows-play-services:3.0'
-```
-```groovy
-// MOCKSERVER
-testCompile 'com.squareup.okhttp3:mockwebserver:3.2.0'
 ```
 ```groovy
 // MOCKSERVER
