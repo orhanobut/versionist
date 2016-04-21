@@ -56,15 +56,18 @@ def addAndroidStudio(url):
   soup = getSoup(url)
   androidStudio = None
   emulator = None
-  for tag in soup.find_all('title'):
-    title= tag.string
-    if "Android Studio" in title:
-      if androidStudio == None:
-        androidStudio = title
-    if "Emulator" in title:
-      if emulator == None:
-        index = title.find("Emulator")
-        emulator = title[index:]
+  entries = soup.find_all('entry')
+
+  for entry in entries:
+    title = entry.title.string
+    for link in entry.find_all('link'):
+      if link['rel'][0] == 'alternate':
+        if androidStudio == None:
+          androidStudio = "[" +  title + "](" + link['href'] +")"
+        if "Emulator" in title:
+          if emulator == None:
+            index = title.find("Emulator")
+            emulator = "[" +  title[index:] + "](" + link['href'] +")"
 
     if androidStudio != None and emulator != None:
       write(androidStudio + "\n\n" + emulator)

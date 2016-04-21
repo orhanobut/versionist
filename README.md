@@ -107,9 +107,9 @@ Highlights</a></td></tr>
 </table>
 
 # Android Studio
-Android Studio 2.1 Beta 3 Available
+[Android Studio 2.1 Beta 3 Available](https://sites.google.com/a/android.com/tools/recent/androidstudio21beta2available-1)
 
-Emulator 25.1.1 are Available in the Stable, Beta, and Dev Channels
+[Emulator 25.1.1 are Available in the Stable, Beta, and Dev Channels](https://sites.google.com/a/android.com/tools/recent/androidstudio20andemulator2511areavailableinthestablebetaanddevchannels)
 
 # Google Play Services
 ```groovy
