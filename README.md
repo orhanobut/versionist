@@ -262,30 +262,25 @@ androidTestCompile 'com.android.support.test.espresso:espresso-idling-resource:2
 ```groovy
 // JUnit
 testCompile 'junit:junit:4.12'
-```
-```groovy
+
 // Mockito
 testCompile 'org.mockito:mockito-core:2.0.50-beta'
-```
-```groovy
+
 // AssertJ
 testCompile 'org.assertj:assertj-core:3.4.1'
-```
-```groovy
+
 // Robolectric
 testCompile 'org.robolectric:robolectric:3.0'
-```
-```groovy
+
 // Robolectric Shadows Support v4
 testCompile 'org.robolectric:shadows-support-v4:3.0'
-```
-```groovy
+
 // Robolectric Shadows Play Services
 testCompile 'org.robolectric:shadows-play-services:3.0'
-```
-```groovy
+
 // MockServer
 testCompile 'com.squareup.okhttp3:mockwebserver:3.2.0'
+
 ```
 
 
@@ -293,12 +288,20 @@ testCompile 'com.squareup.okhttp3:mockwebserver:3.2.0'
 ```groovy
 // Gson
 compile 'com.google.code.gson:gson:2.6.2'
-```
-```groovy
+
 // OkHttp3
 compile 'com.squareup.okhttp3:okhttp:3.2.0'
-```
-```groovy
+
 // OkHttp3 Logging Interceptor
 compile 'com.squareup.okhttp3:logging-interceptor:3.2.0'
+
+// RxJava
+compile 'io.reactivex:rxjava:1.1.3'
+
+// RxAndroid
+compile 'io.reactivex:rxandroid:1.1.0'
+
+// Dagger 2
+compile 'com.google.dagger:dagger:2.4'
+
 ```

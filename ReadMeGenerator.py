@@ -99,14 +99,14 @@ def generateSupportLibraries(url):
 
   addList('compile', list)
 
-def addMavenRepo(title, compileType, groupId, artifactId):
+def addMavenRepo(title, groupId, artifactId):
   url = 'https://maven-badges.herokuapp.com/maven-central/' + groupId+'/' + artifactId
   res = urllib2.urlopen(url)
   finalurl = res.geturl()
 
   list = finalurl.split('%7C')
   dependency= list[1] + ":" + list[2] + ":" + list[3]
-  addItem(compileType, title, dependency)
+  return Pair(title, dependency)
 
 with open('README.md', 'w+') as file:
   addHeader("Android Platform")
@@ -123,18 +123,26 @@ with open('README.md', 'w+') as file:
 
   addHeader("Test")
   addEspresso('https://google.github.io/android-testing-support-library/downloads/index.html')
-  addMavenRepo('testCompile', 'JUnit','junit', 'junit')
-  addMavenRepo('testCompile','Mockito','org.mockito', 'mockito-core')
-  addMavenRepo('testCompile','AssertJ','org.assertj', 'assertj-core')
-  addMavenRepo('testCompile','Robolectric','org.robolectric', 'robolectric')
-  addMavenRepo('testCompile','Robolectric Shadows Support v4','org.robolectric', 'shadows-support-v4')
-  addMavenRepo('testCompile','Robolectric Shadows Play Services','org.robolectric', 'shadows-play-services')
-  addMavenRepo('testCompile','MockServer','com.squareup.okhttp3', 'mockwebserver')
+
+  testList = []
+  testList.append(addMavenRepo('JUnit','junit', 'junit'))
+  testList.append(addMavenRepo('Mockito','org.mockito', 'mockito-core'))
+  testList.append(addMavenRepo('AssertJ','org.assertj', 'assertj-core'))
+  testList.append(addMavenRepo('Robolectric','org.robolectric', 'robolectric'))
+  testList.append(addMavenRepo('Robolectric Shadows Support v4','org.robolectric', 'shadows-support-v4'))
+  testList.append(addMavenRepo('Robolectric Shadows Play Services','org.robolectric', 'shadows-play-services'))
+  testList.append(addMavenRepo('MockServer','com.squareup.okhttp3', 'mockwebserver'))
+  addList('testCompile', testList)
 
   addHeader("Others")
-  addMavenRepo('compile','Gson','com.google.code.gson', 'gson')
-  addMavenRepo('compile','OkHttp3','com.squareup.okhttp3', 'okhttp')
-  addMavenRepo('compile','OkHttp3 Logging Interceptor','com.squareup.okhttp3', 'logging-interceptor')
+  others = []
+  others.append(addMavenRepo('Gson','com.google.code.gson', 'gson'))
+  others.append(addMavenRepo('OkHttp3','com.squareup.okhttp3', 'okhttp'))
+  others.append(addMavenRepo('OkHttp3 Logging Interceptor','com.squareup.okhttp3', 'logging-interceptor'))
+  others.append(addMavenRepo('RxJava','io.reactivex', 'rxjava'))
+  others.append(addMavenRepo('RxAndroid','io.reactivex', 'rxandroid'))
+  others.append(addMavenRepo('Dagger 2','com.google.dagger', 'dagger'))
+  addList('compile', others)
 
 with open('README.md') as file:
   print file.read()
