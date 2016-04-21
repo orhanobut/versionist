@@ -108,243 +108,244 @@ Highlights</a></td></tr>
 
 # Android Studio
 Android Studio 2.1 Beta 3 Available
+
 Emulator 25.1.1 are Available in the Stable, Beta, and Dev Channels
 
 # Google Play Services
 ```groovy
-// COMPILE
-Google+'com.google.android.gms:play-services-plus:8.4.0'
+// GOOGLE+
+compile 'com.google.android.gms:play-services-plus:8.4.0'
 ```
 ```groovy
-// COMPILE
-Google Account Login'com.google.android.gms:play-services-auth:8.4.0'
+// GOOGLE ACCOUNT LOGIN
+compile 'com.google.android.gms:play-services-auth:8.4.0'
 ```
 ```groovy
-// COMPILE
-Google Actions, Base Client Library'com.google.android.gms:play-services-base:8.4.0'
+// GOOGLE ACTIONS, BASE CLIENT LIBRARY
+compile 'com.google.android.gms:play-services-base:8.4.0'
 ```
 ```groovy
-// COMPILE
-Google Address API'com.google.android.gms:play-services-identity:8.4.0'
+// GOOGLE ADDRESS API
+compile 'com.google.android.gms:play-services-identity:8.4.0'
 ```
 ```groovy
-// COMPILE
-Google App Indexing'com.google.android.gms:play-services-appindexing:8.4.0'
+// GOOGLE APP INDEXING
+compile 'com.google.android.gms:play-services-appindexing:8.4.0'
 ```
 ```groovy
-// COMPILE
-Google App Invites'com.google.android.gms:play-services-appinvite:8.4.0'
+// GOOGLE APP INVITES
+compile 'com.google.android.gms:play-services-appinvite:8.4.0'
 ```
 ```groovy
-// COMPILE
-Google Analytics'com.google.android.gms:play-services-analytics:8.4.0'
+// GOOGLE ANALYTICS
+compile 'com.google.android.gms:play-services-analytics:8.4.0'
 ```
 ```groovy
-// COMPILE
-Google Cast'com.google.android.gms:play-services-cast:8.4.0'
+// GOOGLE CAST
+compile 'com.google.android.gms:play-services-cast:8.4.0'
 ```
 ```groovy
-// COMPILE
-Google Cloud Messaging'com.google.android.gms:play-services-gcm:8.4.0'
+// GOOGLE CLOUD MESSAGING
+compile 'com.google.android.gms:play-services-gcm:8.4.0'
 ```
 ```groovy
-// COMPILE
-Google Drive'com.google.android.gms:play-services-drive:8.4.0'
+// GOOGLE DRIVE
+compile 'com.google.android.gms:play-services-drive:8.4.0'
 ```
 ```groovy
-// COMPILE
-Google Fit'com.google.android.gms:play-services-fitness:8.4.0'
+// GOOGLE FIT
+compile 'com.google.android.gms:play-services-fitness:8.4.0'
 ```
 ```groovy
-// COMPILE
-Google Location, Activity Recognition, and Places'com.google.android.gms:play-services-location:8.4.0'
+// GOOGLE LOCATION, ACTIVITY RECOGNITION, AND PLACES
+compile 'com.google.android.gms:play-services-location:8.4.0'
 ```
 ```groovy
-// COMPILE
-Google Maps'com.google.android.gms:play-services-maps:8.4.0'
+// GOOGLE MAPS
+compile 'com.google.android.gms:play-services-maps:8.4.0'
 ```
 ```groovy
-// COMPILE
-Google Mobile Ads'com.google.android.gms:play-services-ads:8.4.0'
+// GOOGLE MOBILE ADS
+compile 'com.google.android.gms:play-services-ads:8.4.0'
 ```
 ```groovy
-// COMPILE
-Mobile Vision'com.google.android.gms:play-services-vision:8.4.0'
+// MOBILE VISION
+compile 'com.google.android.gms:play-services-vision:8.4.0'
 ```
 ```groovy
-// COMPILE
-Google Nearby'com.google.android.gms:play-services-nearby:8.4.0'
+// GOOGLE NEARBY
+compile 'com.google.android.gms:play-services-nearby:8.4.0'
 ```
 ```groovy
-// COMPILE
-Google Panorama Viewer'com.google.android.gms:play-services-panorama:8.4.0'
+// GOOGLE PANORAMA VIEWER
+compile 'com.google.android.gms:play-services-panorama:8.4.0'
 ```
 ```groovy
-// COMPILE
-Google Play Game services'com.google.android.gms:play-services-games:8.4.0'
+// GOOGLE PLAY GAME SERVICES
+compile 'com.google.android.gms:play-services-games:8.4.0'
 ```
 ```groovy
-// COMPILE
-SafetyNet'com.google.android.gms:play-services-safetynet:8.4.0'
+// SAFETYNET
+compile 'com.google.android.gms:play-services-safetynet:8.4.0'
 ```
 ```groovy
-// COMPILE
-Google Wallet'com.google.android.gms:play-services-wallet:8.4.0'
+// GOOGLE WALLET
+compile 'com.google.android.gms:play-services-wallet:8.4.0'
 ```
 ```groovy
-// COMPILE
-Android Wear'com.google.android.gms:play-services-wearable:8.4.0'
+// ANDROID WEAR
+compile 'com.google.android.gms:play-services-wearable:8.4.0'
 ```
 
 
 # Support Library
 ```groovy
-// COMPILE
-v4 Support Library'com.android.support:support-v4:23.3.0'
+// V4 SUPPORT LIBRARY
+compile 'com.android.support:support-v4:23.3.0'
 ```
 ```groovy
-// COMPILE
-Multidex Support Library'com.android.support:multidex:1.0.0'
+// MULTIDEX SUPPORT LIBRARY
+compile 'com.android.support:multidex:1.0.0'
 ```
 ```groovy
-// COMPILE
-v7 appcompat library'com.android.support:appcompat-v7:23.3.0'
+// V7 APPCOMPAT LIBRARY
+compile 'com.android.support:appcompat-v7:23.3.0'
 ```
 ```groovy
-// COMPILE
-v7 cardview library'com.android.support:cardview-v7:23.3.0'
+// V7 CARDVIEW LIBRARY
+compile 'com.android.support:cardview-v7:23.3.0'
 ```
 ```groovy
-// COMPILE
-v7 gridlayout library'com.android.support:gridlayout-v7:23.3.0'
+// V7 GRIDLAYOUT LIBRARY
+compile 'com.android.support:gridlayout-v7:23.3.0'
 ```
 ```groovy
-// COMPILE
-v7 mediarouter library'com.android.support:mediarouter-v7:23.3.0'
+// V7 MEDIAROUTER LIBRARY
+compile 'com.android.support:mediarouter-v7:23.3.0'
 ```
 ```groovy
-// COMPILE
-v7 palette library'com.android.support:palette-v7:23.3.0'
+// V7 PALETTE LIBRARY
+compile 'com.android.support:palette-v7:23.3.0'
 ```
 ```groovy
-// COMPILE
-v7 recyclerview library'com.android.support:recyclerview-v7:23.3.0'
+// V7 RECYCLERVIEW LIBRARY
+compile 'com.android.support:recyclerview-v7:23.3.0'
 ```
 ```groovy
-// COMPILE
-v7 Preference Support Library'com.android.support:preference-v7:23.3.0'
+// V7 PREFERENCE SUPPORT LIBRARY
+compile 'com.android.support:preference-v7:23.3.0'
 ```
 ```groovy
-// COMPILE
-v8 renderscript library'defaultConfig {\n    renderscriptTargetApi 18\n    renderscriptSupportModeEnabled true\n}'
+// V8 RENDERSCRIPT LIBRARY
+compile 'defaultConfig {\n    renderscriptTargetApi 18\n    renderscriptSupportModeEnabled true\n}'
 ```
 ```groovy
-// COMPILE
-v13 Support Library'com.android.support:support-v13:23.3.0'
+// V13 SUPPORT LIBRARY
+compile 'com.android.support:support-v13:23.3.0'
 ```
 ```groovy
-// COMPILE
-v14 Preference Support Library'com.android.support:preference-v14:23.3.0'
+// V14 PREFERENCE SUPPORT LIBRARY
+compile 'com.android.support:preference-v14:23.3.0'
 ```
 ```groovy
-// COMPILE
-v17 Preference Support Library for TV'com.android.support:preference-leanback-v17:23.3.0'
+// V17 PREFERENCE SUPPORT LIBRARY FOR TV
+compile 'com.android.support:preference-leanback-v17:23.3.0'
 ```
 ```groovy
-// COMPILE
-v17 Leanback Library'com.android.support:leanback-v17:23.3.0'
+// V17 LEANBACK LIBRARY
+compile 'com.android.support:leanback-v17:23.3.0'
 ```
 ```groovy
-// COMPILE
-Annotations Support Library'com.android.support:support-annotations:23.3.0'
+// ANNOTATIONS SUPPORT LIBRARY
+compile 'com.android.support:support-annotations:23.3.0'
 ```
 ```groovy
-// COMPILE
-Design Support Library'com.android.support:design:23.3.0'
+// DESIGN SUPPORT LIBRARY
+compile 'com.android.support:design:23.3.0'
 ```
 ```groovy
-// COMPILE
-Custom Tabs Support Library'com.android.support:customtabs:23.3.0'
+// CUSTOM TABS SUPPORT LIBRARY
+compile 'com.android.support:customtabs:23.3.0'
 ```
 ```groovy
-// COMPILE
-Percent Support Library'com.android.support:percent:23.3.0'
+// PERCENT SUPPORT LIBRARY
+compile 'com.android.support:percent:23.3.0'
 ```
 ```groovy
-// COMPILE
-App Recommendation Support Library for TV'com.android.support:recommendation:23.3.0'
+// APP RECOMMENDATION SUPPORT LIBRARY FOR TV
+compile 'com.android.support:recommendation:23.3.0'
 ```
 
 
 # Test
 ```groovy
-// COMPILE
-Android JUnit Runner'com.android.support.test:runner:0.5'
+// ANDROID JUNIT RUNNER
+compile 'com.android.support.test:runner:0.5'
 ```
 ```groovy
-// COMPILE
-JUnit4 Rules'com.android.support.test:rules:0.5'
+// JUNIT4 RULES
+compile 'com.android.support.test:rules:0.5'
 ```
 ```groovy
-// COMPILE
-Espresso core'com.android.support.test.espresso:espresso-core:2.2.2'
+// ESPRESSO CORE
+compile 'com.android.support.test.espresso:espresso-core:2.2.2'
 ```
 ```groovy
-// COMPILE
-Espresso-contrib for DatePicker, RecyclerView, Drawer actions, Accessibility checks, CountingIdlingResource'com.android.support.test.espresso:espresso-contrib:2.2.2'
+// ESPRESSO-CONTRIB FOR DATEPICKER, RECYCLERVIEW, DRAWER ACTIONS, ACCESSIBILITY CHECKS, COUNTINGIDLINGRESOURCE
+compile 'com.android.support.test.espresso:espresso-contrib:2.2.2'
 ```
 ```groovy
-// COMPILE
-Espresso-web for WebView support'com.android.support.test.espresso:espresso-web:2.2.2'
+// ESPRESSO-WEB FOR WEBVIEW SUPPORT
+compile 'com.android.support.test.espresso:espresso-web:2.2.2'
 ```
 ```groovy
-// COMPILE
-Espresso-idling-resource for synchronization with background jobs'com.android.support.test.espresso:espresso-idling-resource:2.2.2'
+// ESPRESSO-IDLING-RESOURCE FOR SYNCHRONIZATION WITH BACKGROUND JOBS
+compile 'com.android.support.test.espresso:espresso-idling-resource:2.2.2'
 ```
 ```groovy
 // JUNIT
-testCompile'junit:junit:4.12'
+testCompile 'junit:junit:4.12'
 ```
 ```groovy
 // MOCKITO
-testCompile'org.mockito:mockito-core:2.0.49-beta'
+testCompile 'org.mockito:mockito-core:2.0.49-beta'
 ```
 ```groovy
 // ASSERTJ
-testCompile'org.assertj:assertj-core:3.4.1'
+testCompile 'org.assertj:assertj-core:3.4.1'
 ```
 ```groovy
 // ROBOLECTRIC
-testCompile'org.robolectric:robolectric:3.0'
+testCompile 'org.robolectric:robolectric:3.0'
 ```
 ```groovy
 // ROBOLECTRIC
-testCompile'org.robolectric:shadows-support-v4:3.0'
+testCompile 'org.robolectric:shadows-support-v4:3.0'
 ```
 ```groovy
 // ROBOLECTRIC
-testCompile'org.robolectric:shadows-play-services:3.0'
+testCompile 'org.robolectric:shadows-play-services:3.0'
 ```
 ```groovy
 // MOCKSERVER
-testCompile'com.squareup.okhttp3:mockwebserver:3.2.0'
+testCompile 'com.squareup.okhttp3:mockwebserver:3.2.0'
 ```
 ```groovy
 // MOCKSERVER
-testCompile'com.squareup.okhttp3:mockwebserver:3.2.0'
+testCompile 'com.squareup.okhttp3:mockwebserver:3.2.0'
 ```
 
 
 # Others
 ```groovy
 // GSON
-compile'com.google.code.gson:gson:2.6.2'
+compile 'com.google.code.gson:gson:2.6.2'
 ```
 ```groovy
 // OKHTTP3
-compile'com.squareup.okhttp3:okhttp:3.2.0'
+compile 'com.squareup.okhttp3:okhttp:3.2.0'
 ```
 ```groovy
 // OKHTTP3 LOGGING INTERCEPTOR
-compile'com.squareup.okhttp3:logging-interceptor:3.2.0'
+compile 'com.squareup.okhttp3:logging-interceptor:3.2.0'
 ```

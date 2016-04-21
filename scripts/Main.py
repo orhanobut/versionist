@@ -22,11 +22,11 @@ def addHeader(header):
 
 def addItem(title, compileType,  dependency):
   file.write("```groovy\n// " + title.upper() + "\n")
-  file.write(compileType + "'" + dependency + "'\n```\n")
+  file.write(compileType + " '" + dependency + "'\n```\n")
 
 def addList(list):
   for pair in list:
-    addItem('compile', pair.title, pair.dependency)
+    addItem(pair.title,'compile', pair.dependency)
 
 def getSoup(url):
   return BeautifulSoup(urllib2.urlopen(url).read().decode('utf-8'), 'html.parser')
@@ -59,7 +59,7 @@ def addAndroidStudio(url):
         emulator = title[index:]
 
     if androidStudio != None and emulator != None:
-      write(androidStudio + "\n" + emulator)
+      write(androidStudio + "\n\n" + emulator)
       return
 
 def addGooglePlayService(url):
