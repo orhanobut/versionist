@@ -21,12 +21,15 @@ def addHeader(header):
   file.write("# " + header + "\n")
 
 def addItem(title, compileType,  dependency):
-  file.write("```groovy\n// " + title.upper() + "\n")
+  file.write("```groovy\n// " + title + "\n")
   file.write(compileType + " '" + dependency + "'\n```\n")
 
 def addList(compileType, list):
+  file.write("```groovy\n")
   for pair in list:
-    addItem(pair.title, compileType, pair.dependency)
+    file.write('// ' + pair.title + "\n")
+    file.write(compileType + " '" + pair.dependency + "'\n\n")
+  file.write("```\n")
 
 def getSoup(url):
   return BeautifulSoup(urllib2.urlopen(url).read().decode('utf-8'), 'html.parser')

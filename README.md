@@ -113,231 +113,192 @@ Emulator 25.1.1 are Available in the Stable, Beta, and Dev Channels
 
 # Google Play Services
 ```groovy
-// GOOGLE+
+// Google+
 compile 'com.google.android.gms:play-services-plus:8.4.0'
-```
-```groovy
-// GOOGLE ACCOUNT LOGIN
+
+// Google Account Login
 compile 'com.google.android.gms:play-services-auth:8.4.0'
-```
-```groovy
-// GOOGLE ACTIONS, BASE CLIENT LIBRARY
+
+// Google Actions, Base Client Library
 compile 'com.google.android.gms:play-services-base:8.4.0'
-```
-```groovy
-// GOOGLE ADDRESS API
+
+// Google Address API
 compile 'com.google.android.gms:play-services-identity:8.4.0'
-```
-```groovy
-// GOOGLE APP INDEXING
+
+// Google App Indexing
 compile 'com.google.android.gms:play-services-appindexing:8.4.0'
-```
-```groovy
-// GOOGLE APP INVITES
+
+// Google App Invites
 compile 'com.google.android.gms:play-services-appinvite:8.4.0'
-```
-```groovy
-// GOOGLE ANALYTICS
+
+// Google Analytics
 compile 'com.google.android.gms:play-services-analytics:8.4.0'
-```
-```groovy
-// GOOGLE CAST
+
+// Google Cast
 compile 'com.google.android.gms:play-services-cast:8.4.0'
-```
-```groovy
-// GOOGLE CLOUD MESSAGING
+
+// Google Cloud Messaging
 compile 'com.google.android.gms:play-services-gcm:8.4.0'
-```
-```groovy
-// GOOGLE DRIVE
+
+// Google Drive
 compile 'com.google.android.gms:play-services-drive:8.4.0'
-```
-```groovy
-// GOOGLE FIT
+
+// Google Fit
 compile 'com.google.android.gms:play-services-fitness:8.4.0'
-```
-```groovy
-// GOOGLE LOCATION, ACTIVITY RECOGNITION, AND PLACES
+
+// Google Location, Activity Recognition, and Places
 compile 'com.google.android.gms:play-services-location:8.4.0'
-```
-```groovy
-// GOOGLE MAPS
+
+// Google Maps
 compile 'com.google.android.gms:play-services-maps:8.4.0'
-```
-```groovy
-// GOOGLE MOBILE ADS
+
+// Google Mobile Ads
 compile 'com.google.android.gms:play-services-ads:8.4.0'
-```
-```groovy
-// MOBILE VISION
+
+// Mobile Vision
 compile 'com.google.android.gms:play-services-vision:8.4.0'
-```
-```groovy
-// GOOGLE NEARBY
+
+// Google Nearby
 compile 'com.google.android.gms:play-services-nearby:8.4.0'
-```
-```groovy
-// GOOGLE PANORAMA VIEWER
+
+// Google Panorama Viewer
 compile 'com.google.android.gms:play-services-panorama:8.4.0'
-```
-```groovy
-// GOOGLE PLAY GAME SERVICES
+
+// Google Play Game services
 compile 'com.google.android.gms:play-services-games:8.4.0'
-```
-```groovy
-// SAFETYNET
+
+// SafetyNet
 compile 'com.google.android.gms:play-services-safetynet:8.4.0'
-```
-```groovy
-// GOOGLE WALLET
+
+// Google Wallet
 compile 'com.google.android.gms:play-services-wallet:8.4.0'
-```
-```groovy
-// ANDROID WEAR
+
+// Android Wear
 compile 'com.google.android.gms:play-services-wearable:8.4.0'
+
 ```
 
 
 # Support Library
 ```groovy
-// V4 SUPPORT LIBRARY
+// v4 Support Library
 compile 'com.android.support:support-v4:23.3.0'
-```
-```groovy
-// MULTIDEX SUPPORT LIBRARY
+
+// Multidex Support Library
 compile 'com.android.support:multidex:1.0.0'
-```
-```groovy
-// V7 APPCOMPAT LIBRARY
+
+// v7 appcompat library
 compile 'com.android.support:appcompat-v7:23.3.0'
-```
-```groovy
-// V7 CARDVIEW LIBRARY
+
+// v7 cardview library
 compile 'com.android.support:cardview-v7:23.3.0'
-```
-```groovy
-// V7 GRIDLAYOUT LIBRARY
+
+// v7 gridlayout library
 compile 'com.android.support:gridlayout-v7:23.3.0'
-```
-```groovy
-// V7 MEDIAROUTER LIBRARY
+
+// v7 mediarouter library
 compile 'com.android.support:mediarouter-v7:23.3.0'
-```
-```groovy
-// V7 PALETTE LIBRARY
+
+// v7 palette library
 compile 'com.android.support:palette-v7:23.3.0'
-```
-```groovy
-// V7 RECYCLERVIEW LIBRARY
+
+// v7 recyclerview library
 compile 'com.android.support:recyclerview-v7:23.3.0'
-```
-```groovy
-// V7 PREFERENCE SUPPORT LIBRARY
+
+// v7 Preference Support Library
 compile 'com.android.support:preference-v7:23.3.0'
-```
-```groovy
-// V13 SUPPORT LIBRARY
+
+// v13 Support Library
 compile 'com.android.support:support-v13:23.3.0'
-```
-```groovy
-// V14 PREFERENCE SUPPORT LIBRARY
+
+// v14 Preference Support Library
 compile 'com.android.support:preference-v14:23.3.0'
-```
-```groovy
-// V17 PREFERENCE SUPPORT LIBRARY FOR TV
+
+// v17 Preference Support Library for TV
 compile 'com.android.support:preference-leanback-v17:23.3.0'
-```
-```groovy
-// V17 LEANBACK LIBRARY
+
+// v17 Leanback Library
 compile 'com.android.support:leanback-v17:23.3.0'
-```
-```groovy
-// ANNOTATIONS SUPPORT LIBRARY
+
+// Annotations Support Library
 compile 'com.android.support:support-annotations:23.3.0'
-```
-```groovy
-// DESIGN SUPPORT LIBRARY
+
+// Design Support Library
 compile 'com.android.support:design:23.3.0'
-```
-```groovy
-// CUSTOM TABS SUPPORT LIBRARY
+
+// Custom Tabs Support Library
 compile 'com.android.support:customtabs:23.3.0'
-```
-```groovy
-// PERCENT SUPPORT LIBRARY
+
+// Percent Support Library
 compile 'com.android.support:percent:23.3.0'
-```
-```groovy
-// APP RECOMMENDATION SUPPORT LIBRARY FOR TV
+
+// App Recommendation Support Library for TV
 compile 'com.android.support:recommendation:23.3.0'
+
 ```
 
 
 # Test
 ```groovy
-// ANDROID JUNIT RUNNER
+// Android JUnit Runner
 androidTestCompile 'com.android.support.test:runner:0.5'
-```
-```groovy
-// JUNIT4 RULES
+
+// JUnit4 Rules
 androidTestCompile 'com.android.support.test:rules:0.5'
-```
-```groovy
-// ESPRESSO CORE
+
+// Espresso core
 androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2'
-```
-```groovy
-// ESPRESSO-CONTRIB FOR DATEPICKER, RECYCLERVIEW, DRAWER ACTIONS, ACCESSIBILITY CHECKS, COUNTINGIDLINGRESOURCE
+
+// Espresso-contrib for DatePicker, RecyclerView, Drawer actions, Accessibility checks, CountingIdlingResource
 androidTestCompile 'com.android.support.test.espresso:espresso-contrib:2.2.2'
-```
-```groovy
-// ESPRESSO-WEB FOR WEBVIEW SUPPORT
+
+// Espresso-web for WebView support
 androidTestCompile 'com.android.support.test.espresso:espresso-web:2.2.2'
-```
-```groovy
-// ESPRESSO-IDLING-RESOURCE FOR SYNCHRONIZATION WITH BACKGROUND JOBS
+
+// Espresso-idling-resource for synchronization with background jobs
 androidTestCompile 'com.android.support.test.espresso:espresso-idling-resource:2.2.2'
+
 ```
 ```groovy
-// JUNIT
+// JUnit
 testCompile 'junit:junit:4.12'
 ```
 ```groovy
-// MOCKITO
+// Mockito
 testCompile 'org.mockito:mockito-core:2.0.50-beta'
 ```
 ```groovy
-// ASSERTJ
+// AssertJ
 testCompile 'org.assertj:assertj-core:3.4.1'
 ```
 ```groovy
-// ROBOLECTRIC
+// Robolectric
 testCompile 'org.robolectric:robolectric:3.0'
 ```
 ```groovy
-// ROBOLECTRIC SHADOWS SUPPORT V4
+// Robolectric Shadows Support v4
 testCompile 'org.robolectric:shadows-support-v4:3.0'
 ```
 ```groovy
-// ROBOLECTRIC SHADOWS PLAY SERVICES
+// Robolectric Shadows Play Services
 testCompile 'org.robolectric:shadows-play-services:3.0'
 ```
 ```groovy
-// MOCKSERVER
+// MockServer
 testCompile 'com.squareup.okhttp3:mockwebserver:3.2.0'
 ```
 
 
 # Others
 ```groovy
-// GSON
+// Gson
 compile 'com.google.code.gson:gson:2.6.2'
 ```
 ```groovy
-// OKHTTP3
+// OkHttp3
 compile 'com.squareup.okhttp3:okhttp:3.2.0'
 ```
 ```groovy
-// OKHTTP3 LOGGING INTERCEPTOR
+// OkHttp3 Logging Interceptor
 compile 'com.squareup.okhttp3:logging-interceptor:3.2.0'
 ```
