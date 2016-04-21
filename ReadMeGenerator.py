@@ -85,12 +85,11 @@ def generateSupportLibraries(url):
   for tag in tags:
     if tag.name == 'h2' or tag.name == 'h3':
       title = tag.string
-    if tag.name == 'pre':
+    if tag.name == 'pre' and "renderscript" not in tag.name:
       pair = Pair(title, str(tag.string).encode('string_escape')[2:-2])
       list.append(pair)
 
   addList(list)
-
 
 def addMavenRepo(title, compileType, groupId, artifactId):
   url = 'https://maven-badges.herokuapp.com/maven-central/' + groupId+'/' + artifactId
