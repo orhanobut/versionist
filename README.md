@@ -236,10 +236,6 @@ compile 'com.android.support:recyclerview-v7:23.3.0'
 compile 'com.android.support:preference-v7:23.3.0'
 ```
 ```groovy
-// V8 RENDERSCRIPT LIBRARY
-compile 'defaultConfig {\n    renderscriptTargetApi 18\n    renderscriptSupportModeEnabled true\n}'
-```
-```groovy
 // V13 SUPPORT LIBRARY
 compile 'com.android.support:support-v13:23.3.0'
 ```
@@ -308,7 +304,7 @@ testCompile 'junit:junit:4.12'
 ```
 ```groovy
 // MOCKITO
-testCompile 'org.mockito:mockito-core:2.0.49-beta'
+testCompile 'org.mockito:mockito-core:2.0.50-beta'
 ```
 ```groovy
 // ASSERTJ
