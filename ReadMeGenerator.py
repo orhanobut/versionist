@@ -32,7 +32,12 @@ def getSoup(url):
   return BeautifulSoup(urllib2.urlopen(url).read().decode('utf-8'), 'html.parser')
 
 def generatePlatform(url):
-  write(str(getSoup(url).table))
+  tags = getSoup(url).table
+  for a in tags.find_all('a'):
+    path = a['href']
+    a['href'] = 'http://developer.android.com' + a['href']
+
+  write(str(tags))
 
 def addEspresso(url):
   title = None
