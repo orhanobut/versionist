@@ -1,7 +1,3 @@
-from GooglePlayServices import generateGms
-from SupportLibraries import generateSupport
-from AndroidStudio import generateAS
-
 import urllib2 
 import os
 from bs4 import BeautifulSoup
