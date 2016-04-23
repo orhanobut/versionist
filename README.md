@@ -108,7 +108,7 @@ Highlights</a></td></tr>
 </table>
 
 # Android Studio
-[Android Studio 2.1 Beta 3 Available](https://sites.google.com/a/android.com/tools/recent/androidstudio21beta2available-1)
+[Android Studio 2.1 RC Available](https://sites.google.com/a/android.com/tools/recent/androidstudio21rcavailable)
 
 [Emulator 25.1.1 are Available in the Stable, Beta, and Dev Channels](https://sites.google.com/a/android.com/tools/recent/androidstudio20andemulator2511areavailableinthestablebetaanddevchannels)
 
@@ -265,19 +265,19 @@ androidTestCompile 'com.android.support.test.espresso:espresso-idling-resource:2
 testCompile 'junit:junit:4.12'
 
 // Mockito
-testCompile 'org.mockito:mockito-core:2.0.50-beta'
+testCompile 'org.mockito:mockito-core:2.0.52-beta'
 
 // AssertJ
 testCompile 'org.assertj:assertj-core:3.4.1'
 
 // Robolectric
-testCompile 'org.robolectric:robolectric:3.0'
+testCompile 'org.robolectric:robolectric:3.1-rc1'
 
 // Robolectric Shadows Support v4
-testCompile 'org.robolectric:shadows-support-v4:3.0'
+testCompile 'org.robolectric:shadows-support-v4:3.1-rc1'
 
 // Robolectric Shadows Play Services
-testCompile 'org.robolectric:shadows-play-services:3.0'
+testCompile 'org.robolectric:shadows-play-services:3.1-rc1'
 
 // MockServer
 testCompile 'com.squareup.okhttp3:mockwebserver:3.2.0'
