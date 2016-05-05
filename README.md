@@ -297,10 +297,10 @@ compile 'com.squareup.okhttp3:okhttp:3.2.0'
 compile 'com.squareup.okhttp3:logging-interceptor:3.2.0'
 
 // RxJava
-compile 'io.reactivex:rxjava:1.1.3'
+compile 'io.reactivex:rxjava:1.1.4'
 
 // RxAndroid
-compile 'io.reactivex:rxandroid:1.1.0'
+compile 'io.reactivex:rxandroid:1.2.0'
 
 // Dagger 2
 compile 'com.google.dagger:dagger:2.4'
