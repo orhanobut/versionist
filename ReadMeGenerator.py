@@ -38,7 +38,6 @@ def generatePlatform(url):
   tags = getSoup(url).table
   for a in tags.find_all('a'):
     path = a['href']
-    a['href'] = 'http://developer.android.com' + a['href']
 
   write(str(tags))
 
