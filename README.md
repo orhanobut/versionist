@@ -108,74 +108,74 @@ Highlights</a></td></tr>
 </table>
 
 # Android Studio
-[Android Studio 2.2 Preview 2 Available](https://sites.google.com/a/android.com/tools/recent/androidstudio22preview2available)
+[Android Studio 2.1 RC Available](https://sites.google.com/a/android.com/tools/recent/androidstudio21rcavailable)
 
 [Emulator 25.1.6 Release Notes](https://sites.google.com/a/android.com/tools/recent/emulator2516releasenotes)
 
 # Google Play Services
 ```groovy
 // Google+
-compile 'com.google.android.gms:play-services-plus:9.0.1'
+compile 'com.google.android.gms:play-services-plus:9.0.2'
 
 // Google Account Login
-compile 'com.google.android.gms:play-services-auth:9.0.1'
+compile 'com.google.android.gms:play-services-auth:9.0.2'
 
 // Google Actions, Base Client Library
-compile 'com.google.android.gms:play-services-base:9.0.1'
+compile 'com.google.android.gms:play-services-base:9.0.2'
 
 // Google Address API
-compile 'com.google.android.gms:play-services-identity:9.0.1'
+compile 'com.google.android.gms:play-services-identity:9.0.2'
 
 // Google App Indexing
-compile 'com.google.android.gms:play-services-appindexing:9.0.1'
+compile 'com.google.android.gms:play-services-appindexing:9.0.2'
 
 // Google App Invites
-compile 'com.google.android.gms:play-services-appinvite:9.0.1'
+compile 'com.google.android.gms:play-services-appinvite:9.0.2'
 
 // Google Analytics
-compile 'com.google.android.gms:play-services-analytics:9.0.1'
+compile 'com.google.android.gms:play-services-analytics:9.0.2'
 
 // Google Cast
-compile 'com.google.android.gms:play-services-cast:9.0.1'
+compile 'com.google.android.gms:play-services-cast:9.0.2'
 
 // Google Cloud Messaging
-compile 'com.google.android.gms:play-services-gcm:9.0.1'
+compile 'com.google.android.gms:play-services-gcm:9.0.2'
 
 // Google Drive
-compile 'com.google.android.gms:play-services-drive:9.0.1'
+compile 'com.google.android.gms:play-services-drive:9.0.2'
 
 // Google Fit
-compile 'com.google.android.gms:play-services-fitness:9.0.1'
+compile 'com.google.android.gms:play-services-fitness:9.0.2'
 
 // Google Location, Activity Recognition, and Places
-compile 'com.google.android.gms:play-services-location:9.0.1'
+compile 'com.google.android.gms:play-services-location:9.0.2'
 
 // Google Maps
-compile 'com.google.android.gms:play-services-maps:9.0.1'
+compile 'com.google.android.gms:play-services-maps:9.0.2'
 
 // Google Mobile Ads
-compile 'com.google.android.gms:play-services-ads:9.0.1'
+compile 'com.google.android.gms:play-services-ads:9.0.2'
 
 // Mobile Vision
-compile 'com.google.android.gms:play-services-vision:9.0.1'
+compile 'com.google.android.gms:play-services-vision:9.0.2'
 
 // Google Nearby
-compile 'com.google.android.gms:play-services-nearby:9.0.1'
+compile 'com.google.android.gms:play-services-nearby:9.0.2'
 
 // Google Panorama Viewer
-compile 'com.google.android.gms:play-services-panorama:9.0.1'
+compile 'com.google.android.gms:play-services-panorama:9.0.2'
 
 // Google Play Game services
-compile 'com.google.android.gms:play-services-games:9.0.1'
+compile 'com.google.android.gms:play-services-games:9.0.2'
 
 // SafetyNet
-compile 'com.google.android.gms:play-services-safetynet:9.0.1'
+compile 'com.google.android.gms:play-services-safetynet:9.0.2'
 
 // Android Pay
-compile 'com.google.android.gms:play-services-wallet:9.0.1'
+compile 'com.google.android.gms:play-services-wallet:9.0.2'
 
 // Android Wear
-compile 'com.google.android.gms:play-services-wearable:9.0.1'
+compile 'com.google.android.gms:play-services-wearable:9.0.2'
 
 ```
 
