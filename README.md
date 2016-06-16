@@ -108,7 +108,7 @@ Highlights</a></td></tr>
 </table>
 
 # Android Studio
-[Android Studio 2.1 RC Available](https://sites.google.com/a/android.com/tools/recent/androidstudio21rcavailable)
+[Android Studio 2.2 Preview 3 Available](https://sites.google.com/a/android.com/tools/recent/androidstudio22preview3available)
 
 [Emulator 25.1.6 Release Notes](https://sites.google.com/a/android.com/tools/recent/emulator2516releasenotes)
 
@@ -265,19 +265,19 @@ androidTestCompile 'com.android.support.test.espresso:espresso-idling-resource:2
 testCompile 'junit:junit:4.12'
 
 // Mockito
-testCompile 'org.mockito:mockito-core:2.0.54-beta'
+testCompile 'org.mockito:mockito-core:2.0.58-beta'
 
 // AssertJ
 testCompile 'org.assertj:assertj-core:3.4.1'
 
 // Robolectric
-testCompile 'org.robolectric:robolectric:3.1-rc1'
+testCompile 'org.robolectric:robolectric:3.1'
 
 // Robolectric Shadows Support v4
-testCompile 'org.robolectric:shadows-support-v4:3.1-rc1'
+testCompile 'org.robolectric:shadows-support-v4:3.1'
 
 // Robolectric Shadows Play Services
-testCompile 'org.robolectric:shadows-play-services:3.1-rc1'
+testCompile 'org.robolectric:shadows-play-services:3.1'
 
 // MockServer
 testCompile 'com.squareup.okhttp3:mockwebserver:3.3.1'
@@ -288,7 +288,7 @@ testCompile 'com.squareup.okhttp3:mockwebserver:3.3.1'
 # Others
 ```groovy
 // Gson
-compile 'com.google.code.gson:gson:2.6.2'
+compile 'com.google.code.gson:gson:2.7'
 
 // OkHttp3
 compile 'com.squareup.okhttp3:okhttp:3.3.1'
@@ -297,12 +297,12 @@ compile 'com.squareup.okhttp3:okhttp:3.3.1'
 compile 'com.squareup.okhttp3:logging-interceptor:3.3.1'
 
 // RxJava
-compile 'io.reactivex:rxjava:1.1.5'
+compile 'io.reactivex:rxjava:1.1.6'
 
 // RxAndroid
 compile 'io.reactivex:rxandroid:1.2.0'
 
 // Dagger 2
-compile 'com.google.dagger:dagger:2.4'
+compile 'com.google.dagger:dagger:2.5'
 
 ```
