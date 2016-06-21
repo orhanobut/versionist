@@ -265,7 +265,7 @@ androidTestCompile 'com.android.support.test.espresso:espresso-idling-resource:2
 testCompile 'junit:junit:4.12'
 
 // Mockito
-testCompile 'org.mockito:mockito-core:2.0.58-beta'
+testCompile 'org.mockito:mockito-core:2.0.70-beta'
 
 // AssertJ
 testCompile 'org.assertj:assertj-core:3.4.1'
@@ -300,7 +300,7 @@ compile 'com.squareup.okhttp3:logging-interceptor:3.3.1'
 compile 'io.reactivex:rxjava:1.1.6'
 
 // RxAndroid
-compile 'io.reactivex:rxandroid:1.2.0'
+compile 'io.reactivex:rxandroid:1.2.1'
 
 // Dagger 2
 compile 'com.google.dagger:dagger:2.5'
