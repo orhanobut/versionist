@@ -108,7 +108,7 @@ Highlights</a></td></tr>
 </table>
 
 # Android Studio
-[Android Studio 2.2 Preview 3 Available](https://sites.google.com/a/android.com/tools/recent/androidstudio22preview3available)
+[Android Studio 2.2 Preview 4 Available](https://sites.google.com/a/android.com/tools/recent/androidstudio22preview4available)
 
 [Emulator 25.1.6 Release Notes](https://sites.google.com/a/android.com/tools/recent/emulator2516releasenotes)
 
@@ -265,7 +265,7 @@ androidTestCompile 'com.android.support.test.espresso:espresso-idling-resource:2
 testCompile 'junit:junit:4.12'
 
 // Mockito
-testCompile 'org.mockito:mockito-core:2.0.70-beta'
+testCompile 'org.mockito:mockito-core:2.0.71-beta'
 
 // AssertJ
 testCompile 'org.assertj:assertj-core:3.4.1'
