@@ -268,7 +268,7 @@ androidTestCompile 'com.android.support.test.espresso:espresso-idling-resource:2
 testCompile 'junit:junit:4.12'
 
 // Mockito
-testCompile 'org.mockito:mockito-core:2.0.79-beta'
+testCompile 'org.mockito:mockito-core:2.0.81-beta'
 
 // AssertJ
 testCompile 'org.assertj:assertj-core:3.5.1'
