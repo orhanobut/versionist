@@ -108,77 +108,80 @@ Highlights</a></td></tr>
 </table>
 
 # Android Studio
-[Android Studio 2.2 Preview 4 Available](https://sites.google.com/a/android.com/tools/recent/androidstudio22preview4available)
+[Android Studio 2.2 Preview 6 Available](https://sites.google.com/a/android.com/tools/recent/androidstudio22preview6available)
 
 [Emulator 25.1.6 Release Notes](https://sites.google.com/a/android.com/tools/recent/emulator2516releasenotes)
 
 # Google Play Services
 ```groovy
 // Google+
-compile 'com.google.android.gms:play-services-plus:9.2.0'
+compile 'com.google.android.gms:play-services-plus:9.2.1'
 
 // Google Account Login
-compile 'com.google.android.gms:play-services-auth:9.2.0'
+compile 'com.google.android.gms:play-services-auth:9.2.1'
 
 // Google Actions, Base Client Library
-compile 'com.google.android.gms:play-services-base:9.2.0'
+compile 'com.google.android.gms:play-services-base:9.2.1'
 
 // Google Address API
-compile 'com.google.android.gms:play-services-identity:9.2.0'
+compile 'com.google.android.gms:play-services-identity:9.2.1'
 
 // Google App Indexing
-compile 'com.google.android.gms:play-services-appindexing:9.2.0'
+compile 'com.google.android.gms:play-services-appindexing:9.2.1'
 
 // Google App Invites
-compile 'com.google.android.gms:play-services-appinvite:9.2.0'
+compile 'com.google.android.gms:play-services-appinvite:9.2.1'
 
 // Google Analytics
-compile 'com.google.android.gms:play-services-analytics:9.2.0'
+compile 'com.google.android.gms:play-services-analytics:9.2.1'
+
+// Google Awareness
+compile 'com.google.android.gms:play-services-contextmanager:9.2.1'
 
 // Google Cast
-compile 'com.google.android.gms:play-services-cast:9.2.0'
+compile 'com.google.android.gms:play-services-cast:9.2.1'
 
 // Google Cloud Messaging
-compile 'com.google.android.gms:play-services-gcm:9.2.0'
+compile 'com.google.android.gms:play-services-gcm:9.2.1'
 
 // Google Drive
-compile 'com.google.android.gms:play-services-drive:9.2.0'
+compile 'com.google.android.gms:play-services-drive:9.2.1'
 
 // Google Fit
-compile 'com.google.android.gms:play-services-fitness:9.2.0'
+compile 'com.google.android.gms:play-services-fitness:9.2.1'
 
 // Google Location and Activity Recognition
-compile 'com.google.android.gms:play-services-location:9.2.0'
+compile 'com.google.android.gms:play-services-location:9.2.1'
 
 // Google Maps
-compile 'com.google.android.gms:play-services-maps:9.2.0'
+compile 'com.google.android.gms:play-services-maps:9.2.1'
 
 // Google Mobile Ads
-compile 'com.google.android.gms:play-services-ads:9.2.0'
+compile 'com.google.android.gms:play-services-ads:9.2.1'
 
 // Google Places
-compile 'com.google.android.gms:play-services-places:9.2.0'
+compile 'com.google.android.gms:play-services-places:9.2.1'
 
 // Mobile Vision
-compile 'com.google.android.gms:play-services-vision:9.2.0'
+compile 'com.google.android.gms:play-services-vision:9.2.1'
 
 // Google Nearby
-compile 'com.google.android.gms:play-services-nearby:9.2.0'
+compile 'com.google.android.gms:play-services-nearby:9.2.1'
 
 // Google Panorama Viewer
-compile 'com.google.android.gms:play-services-panorama:9.2.0'
+compile 'com.google.android.gms:play-services-panorama:9.2.1'
 
 // Google Play Game services
-compile 'com.google.android.gms:play-services-games:9.2.0'
+compile 'com.google.android.gms:play-services-games:9.2.1'
 
 // SafetyNet
-compile 'com.google.android.gms:play-services-safetynet:9.2.0'
+compile 'com.google.android.gms:play-services-safetynet:9.2.1'
 
 // Android Pay
-compile 'com.google.android.gms:play-services-wallet:9.2.0'
+compile 'com.google.android.gms:play-services-wallet:9.2.1'
 
 // Android Wear
-compile 'com.google.android.gms:play-services-wearable:9.2.0'
+compile 'com.google.android.gms:play-services-wearable:9.2.1'
 
 ```
 
@@ -268,22 +271,22 @@ androidTestCompile 'com.android.support.test.espresso:espresso-idling-resource:2
 testCompile 'junit:junit:4.12'
 
 // Mockito
-testCompile 'org.mockito:mockito-core:2.0.81-beta'
+testCompile 'org.mockito:mockito-core:2.0.87-beta'
 
 // AssertJ
-testCompile 'org.assertj:assertj-core:3.5.1'
+testCompile 'org.assertj:assertj-core:3.5.2'
 
 // Robolectric
-testCompile 'org.robolectric:robolectric:3.1'
+testCompile 'org.robolectric:robolectric:3.1.1'
 
 // Robolectric Shadows Support v4
-testCompile 'org.robolectric:shadows-support-v4:3.1'
+testCompile 'org.robolectric:shadows-support-v4:3.1.1'
 
 // Robolectric Shadows Play Services
-testCompile 'org.robolectric:shadows-play-services:3.1'
+testCompile 'org.robolectric:shadows-play-services:3.1.1'
 
 // MockServer
-testCompile 'com.squareup.okhttp3:mockwebserver:3.4.0-RC1'
+testCompile 'com.squareup.okhttp3:mockwebserver:3.4.1'
 
 ```
 
@@ -294,13 +297,13 @@ testCompile 'com.squareup.okhttp3:mockwebserver:3.4.0-RC1'
 compile 'com.google.code.gson:gson:2.7'
 
 // OkHttp3
-compile 'com.squareup.okhttp3:okhttp:3.4.0-RC1'
+compile 'com.squareup.okhttp3:okhttp:3.4.1'
 
 // OkHttp3 Logging Interceptor
-compile 'com.squareup.okhttp3:logging-interceptor:3.4.0-RC1'
+compile 'com.squareup.okhttp3:logging-interceptor:3.4.1'
 
 // RxJava
-compile 'io.reactivex:rxjava:1.1.6'
+compile 'io.reactivex:rxjava:1.1.7'
 
 // RxAndroid
 compile 'io.reactivex:rxandroid:1.2.1'
