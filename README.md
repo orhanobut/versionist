@@ -1,6 +1,6 @@
 [Android Platform](#android-platform) | [Android Studio](#android-studio) | [Google Play Services](#google-play-services) | [Support Library](#support-library) | [Firebase](#firebase) | [Test](#test) | [Others](#others)
----
 
+---
 
 # Android Platform
 <table>

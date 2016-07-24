@@ -124,8 +124,8 @@ def addMavenRepo(title, groupId, artifactId):
   return Pair(title, dependency)
 
 with open('README.md', 'w+') as file:
-  write("[Android Platform](#android-platform) | [Android Studio](#android-studio) | [Google Play Services](#google-play-services) | [Support Library](#support-library) | [Firebase](#firebase) | [Test](#test) | [Others](#others)\n")
-  write("---\n")
+  write("[Android Platform](#android-platform) | [Android Studio](#android-studio) | [Google Play Services](#google-play-services) | [Support Library](#support-library) | [Firebase](#firebase) | [Test](#test) | [Others](#others)\n\n")
+  write("---")
 
   addHeader("Android Platform")
   generatePlatform('http://developer.android.com/guide/topics/manifest/uses-sdk-element.html')

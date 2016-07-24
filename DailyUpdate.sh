@@ -14,5 +14,7 @@ echo "Committing new changes"
 git add .
 git commit -am "Update versions"
 
-echo "Pushing the new branch"
+echo "Pushing the new branch, delete the local"
 git push origin $BRANCH_NAME
+git checkout master
+git branch -D $BRANCH_NAME
