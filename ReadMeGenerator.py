@@ -101,6 +101,19 @@ def generateSupportLibraries(url):
 
   addList('compile', list)
 
+def generateFirebase(url):
+  soup = getSoup(url)
+  tags = soup.find_all(['td'])
+
+  list = []
+  for i in range(0, len(tags)-1, 2):
+    title = tags[i+1].string
+    dependency = tags[i].string
+    pair = Pair(title, dependency)
+    list.append(pair)
+
+  addList('compile', list)
+
 def addMavenRepo(title, groupId, artifactId):
   url = 'https://maven-badges.herokuapp.com/maven-central/' + groupId+'/' + artifactId
   res = urllib2.urlopen(url)
@@ -125,6 +138,9 @@ with open('README.md', 'w+') as file:
 
   addHeader("Support Library")
   generateSupportLibraries('http://developer.android.com/tools/support-library/features.html')
+
+  addHeader("Firebase")
+  generateFirebase('https://firebase.google.com/docs/android/setup')
 
   addHeader("Test")
   addEspresso('https://google.github.io/android-testing-support-library/downloads/index.html')

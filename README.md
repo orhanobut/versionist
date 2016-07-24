@@ -245,6 +245,41 @@ compile 'com.android.support:recommendation:23.3.0'
 ```
 
 
+# Firebase
+```groovy
+// Analytics
+compile 'com.google.firebase:firebase-core:9.2.1'
+
+// Realtime Database
+compile 'com.google.firebase:firebase-database:9.2.1'
+
+// Storage
+compile 'com.google.firebase:firebase-storage:9.2.1'
+
+// Crash Reporting
+compile 'com.google.firebase:firebase-crash:9.2.1'
+
+// Authentication
+compile 'com.google.firebase:firebase-auth:9.2.1'
+
+// Cloud Messaging / Notifications
+compile 'com.google.firebase:firebase-messaging:9.2.1'
+
+// Remote Config
+compile 'com.google.firebase:firebase-config:9.2.1'
+
+// Invites / Dynamic Links
+compile 'com.google.firebase:firebase-invites:9.2.1'
+
+// AdMob
+compile 'com.google.firebase:firebase-ads:9.2.1'
+
+// App Indexing
+compile 'com.google.android.gms:play-services-appindexing:9.2.1'
+
+```
+
+
 # Test
 ```groovy
 // Android JUnit Runner
@@ -303,7 +338,7 @@ compile 'com.squareup.okhttp3:okhttp:3.4.1'
 compile 'com.squareup.okhttp3:logging-interceptor:3.4.1'
 
 // RxJava
-compile 'io.reactivex:rxjava:1.1.7'
+compile 'io.reactivex:rxjava:1.1.8'
 
 // RxAndroid
 compile 'io.reactivex:rxandroid:1.2.1'
