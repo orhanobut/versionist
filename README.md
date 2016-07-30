@@ -190,58 +190,58 @@ compile 'com.google.android.gms:play-services-wearable:9.2.1'
 # Support Library
 ```groovy
 // v4 Support Library
-compile 'com.android.support:support-v4:23.3.0'
+compile 'com.android.support:support-v4:24.1.1'
 
 // Multidex Support Library
 compile 'com.android.support:multidex:1.0.0'
 
 // v7 appcompat library
-compile 'com.android.support:appcompat-v7:23.3.0'
+compile 'com.android.support:appcompat-v7:24.1.1'
 
 // v7 cardview library
-compile 'com.android.support:cardview-v7:23.3.0'
+compile 'com.android.support:cardview-v7:24.1.1'
 
 // v7 gridlayout library
-compile 'com.android.support:gridlayout-v7:23.3.0'
+compile 'com.android.support:gridlayout-v7:24.1.1'
 
 // v7 mediarouter library
-compile 'com.android.support:mediarouter-v7:23.3.0'
+compile 'com.android.support:mediarouter-v7:24.1.1'
 
 // v7 palette library
-compile 'com.android.support:palette-v7:23.3.0'
+compile 'com.android.support:palette-v7:24.1.1'
 
 // v7 recyclerview library
-compile 'com.android.support:recyclerview-v7:23.3.0'
+compile 'com.android.support:recyclerview-v7:24.1.1'
 
 // v7 Preference Support Library
-compile 'com.android.support:preference-v7:23.3.0'
+compile 'com.android.support:preference-v7:24.1.1'
 
 // v13 Support Library
-compile 'com.android.support:support-v13:23.3.0'
+compile 'com.android.support:support-v13:24.1.1'
 
 // v14 Preference Support Library
-compile 'com.android.support:preference-v14:23.3.0'
+compile 'com.android.support:preference-v14:24.1.1'
 
 // v17 Preference Support Library for TV
-compile 'com.android.support:preference-leanback-v17:23.3.0'
+compile 'com.android.support:preference-leanback-v17:24.1.1'
 
 // v17 Leanback Library
-compile 'com.android.support:leanback-v17:23.3.0'
+compile 'com.android.support:leanback-v17:24.1.1'
 
 // Annotations Support Library
-compile 'com.android.support:support-annotations:23.3.0'
+compile 'com.android.support:support-annotations:24.1.1'
 
 // Design Support Library
-compile 'com.android.support:design:23.3.0'
+compile 'com.android.support:design:24.1.1'
 
 // Custom Tabs Support Library
-compile 'com.android.support:customtabs:23.3.0'
+compile 'com.android.support:customtabs:24.1.1'
 
 // Percent Support Library
-compile 'com.android.support:percent:23.3.0'
+compile 'com.android.support:percent:24.1.1'
 
 // App Recommendation Support Library for TV
-compile 'com.android.support:recommendation:23.3.0'
+compile 'com.android.support:recommendation:24.1.1'
 
 ```
 
@@ -307,19 +307,19 @@ androidTestCompile 'com.android.support.test.espresso:espresso-idling-resource:2
 testCompile 'junit:junit:4.12'
 
 // Mockito
-testCompile 'org.mockito:mockito-core:2.0.87-beta'
+testCompile 'org.mockito:mockito-core:2.0.93-beta'
 
 // AssertJ
 testCompile 'org.assertj:assertj-core:3.5.2'
 
 // Robolectric
-testCompile 'org.robolectric:robolectric:3.1.1'
+testCompile 'org.robolectric:robolectric:3.1.2'
 
 // Robolectric Shadows Support v4
-testCompile 'org.robolectric:shadows-support-v4:3.1.1'
+testCompile 'org.robolectric:shadows-support-v4:3.1.2'
 
 // Robolectric Shadows Play Services
-testCompile 'org.robolectric:shadows-play-services:3.1.1'
+testCompile 'org.robolectric:shadows-play-services:3.1.2'
 
 // MockServer
 testCompile 'com.squareup.okhttp3:mockwebserver:3.4.1'
@@ -345,6 +345,6 @@ compile 'io.reactivex:rxjava:1.1.8'
 compile 'io.reactivex:rxandroid:1.2.1'
 
 // Dagger 2
-compile 'com.google.dagger:dagger:2.5'
+compile 'com.google.dagger:dagger:2.6'
 
 ```
