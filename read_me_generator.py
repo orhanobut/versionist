@@ -30,7 +30,7 @@ def add_list(compileType, list):
   file.write("```groovy\n")
   for pair in list:
     file.write('// ' + pair.title + "\n")
-    file.write(compileType + " '" + pair.dependency + "'\n\n")
+    file.write(compileType + " '" + str(pair.dependency) + "'\n\n")
   file.write("```\n")
 
 def add_platform(url):
@@ -115,7 +115,7 @@ def add_firebase(url):
 
 def add_maven_repo(title, groupId, artifactId):
   url = 'https://maven-badges.herokuapp.com/maven-central/' + groupId+'/' + artifactId
-  res = urllib2.urlopen(url)
+  res = urlopen(url)
   finalurl = res.geturl()
 
   list = finalurl.split('%7C')

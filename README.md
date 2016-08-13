@@ -109,3 +109,185 @@ Highlights</a></td></tr>
 </table>
 
 # Android Studio
+[Android Studio 2.2 Beta Available](https://sites.google.com/a/android.com/tools/recent/androidstudio22betaavailable)
+
+[Emulator 25.1.6 Release Notes](https://sites.google.com/a/android.com/tools/recent/emulator2516releasenotes)
+
+# Google Play Services
+```groovy
+```
+
+
+# Support Library
+```groovy
+// v4 Support Library
+compile 'b'com.android.support:support-v4:24.1.1''
+
+// Multidex Support Library
+compile 'b'com.android.support:multidex:1.0.0''
+
+// v7 appcompat library
+compile 'b'com.android.support:appcompat-v7:24.1.1''
+
+// v7 cardview library
+compile 'b'com.android.support:cardview-v7:24.1.1''
+
+// v7 gridlayout library
+compile 'b'com.android.support:gridlayout-v7:24.1.1''
+
+// v7 mediarouter library
+compile 'b'com.android.support:mediarouter-v7:24.1.1''
+
+// v7 palette library
+compile 'b'com.android.support:palette-v7:24.1.1''
+
+// v7 recyclerview library
+compile 'b'com.android.support:recyclerview-v7:24.1.1''
+
+// v7 Preference Support Library
+compile 'b'com.android.support:preference-v7:24.1.1''
+
+// v13 Support Library
+compile 'b'com.android.support:support-v13:24.1.1''
+
+// v14 Preference Support Library
+compile 'b'com.android.support:preference-v14:24.1.1''
+
+// v17 Preference Support Library for TV
+compile 'b'com.android.support:preference-leanback-v17:24.1.1''
+
+// v17 Leanback Library
+compile 'b'com.android.support:leanback-v17:24.1.1''
+
+// Annotations Support Library
+compile 'b'com.android.support:support-annotations:24.1.1''
+
+// Design Support Library
+compile 'b'com.android.support:design:24.1.1''
+
+// Custom Tabs Support Library
+compile 'b'com.android.support:customtabs:24.1.1''
+
+// Percent Support Library
+compile 'b'com.android.support:percent:24.1.1''
+
+// App Recommendation Support Library for TV
+compile 'b'com.android.support:recommendation:24.1.1''
+
+```
+
+
+# Firebase
+```groovy
+// Analytics
+compile 'com.google.firebase:firebase-core:9.4.0'
+
+// Realtime Database
+compile 'com.google.firebase:firebase-database:9.4.0'
+
+// Storage
+compile 'com.google.firebase:firebase-storage:9.4.0'
+
+// Crash Reporting
+compile 'com.google.firebase:firebase-crash:9.4.0'
+
+// Authentication
+compile 'com.google.firebase:firebase-auth:9.4.0'
+
+// Cloud Messaging / Notifications
+compile 'com.google.firebase:firebase-messaging:9.4.0'
+
+// Remote Config
+compile 'com.google.firebase:firebase-config:9.4.0'
+
+// Invites / Dynamic Links
+compile 'com.google.firebase:firebase-invites:9.4.0'
+
+// AdMob
+compile 'com.google.firebase:firebase-ads:9.4.0'
+
+// App Indexing
+compile 'com.google.android.gms:play-services-appindexing:9.4.0'
+
+```
+
+
+# Test
+```groovy
+// Android JUnit Runner
+androidTestCompile 'com.android.support.test:runner:0.5'
+
+// JUnit4 Rules
+androidTestCompile 'com.android.support.test:rules:0.5'
+
+// Espresso core
+androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2'
+
+// Espresso-contrib for DatePicker, RecyclerView, Drawer actions, Accessibility checks, CountingIdlingResource
+androidTestCompile 'com.android.support.test.espresso:espresso-contrib:2.2.2'
+
+// Espresso-web for WebView support
+androidTestCompile 'com.android.support.test.espresso:espresso-web:2.2.2'
+
+// Espresso-idling-resource for synchronization with background jobs
+androidTestCompile 'com.android.support.test.espresso:espresso-idling-resource:2.2.2'
+
+```
+```groovy
+// JUnit
+testCompile 'junit:junit:4.12'
+
+// Mockito
+testCompile 'org.mockito:mockito-core:2.0.100-beta'
+
+// AssertJ
+testCompile 'org.assertj:assertj-core:3.5.2'
+
+// Truth
+testCompile 'com.google.truth:truth:0.29'
+
+// Robolectric
+testCompile 'org.robolectric:robolectric:3.1.2'
+
+// Robolectric Shadows Support v4
+testCompile 'org.robolectric:shadows-support-v4:3.1.2'
+
+// Robolectric Shadows Play Services
+testCompile 'org.robolectric:shadows-play-services:3.1.2'
+
+// MockServer
+testCompile 'com.squareup.okhttp3:mockwebserver:3.4.1'
+
+```
+
+
+# Others
+```groovy
+// Gson
+compile 'com.google.code.gson:gson:2.7'
+
+// OkHttp3
+compile 'com.squareup.okhttp3:okhttp:3.4.1'
+
+// OkHttp3 Logging Interceptor
+compile 'com.squareup.okhttp3:logging-interceptor:3.4.1'
+
+// RxJava
+compile 'io.reactivex:rxjava:1.1.9'
+
+// RxAndroid
+compile 'io.reactivex:rxandroid:1.2.1'
+
+// Dagger 2
+compile 'com.google.dagger:dagger:2.6'
+
+// Logger
+compile 'com.orhanobut:logger:1.15'
+
+// Timber
+compile 'com.jakewharton.timber:timber:4.2.0'
+
+// AutoValue
+compile 'com.google.auto.value:auto-value:1.3-rc2'
+
+```
