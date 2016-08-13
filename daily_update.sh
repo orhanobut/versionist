@@ -12,7 +12,7 @@ echo "$BRANCH_NAME branch is created"
 git checkout -b $BRANCH_NAME
 
 echo "Generating README"
-python read_me_generator.py
+python3 read_me_generator.py
 
 echo "Committing new changes"
 git add .
