@@ -1,4 +1,4 @@
-import urllib2
+from urllib.request import urlopen
 import os
 from bs4 import BeautifulSoup
 
@@ -21,7 +21,10 @@ def add_header(header):
   file.write("# " + header + "\n")
 
 def get_soup(url):
-  return BeautifulSoup(urllib2.urlopen(url).read().decode('utf-8'), 'html.parser')
+  response = urlopen(url).read().decode('utf-8')
+  response = response.encode('utf-8')
+  
+  return BeautifulSoup(response, 'html.parser')
 
 def add_list(compileType, list):
   file.write("```groovy\n")
@@ -78,7 +81,7 @@ def add_google_play_service(url):
     while True:
       pair = Pair(iterator.next().string, iterator.next().string)
       list.append(pair)
-  except Exception, e:
+  except:
     pass
   add_list('compile', list)
 
@@ -92,7 +95,7 @@ def add_support_libraries(url):
     if tag.name == 'h2' or tag.name == 'h3':
       title = tag.string
     if tag.name == 'pre' and "renderscript" not in tag.string:
-      pair = Pair(title, str(tag.string).encode('string_escape')[2:-2])
+      pair = Pair(title, str(tag.string).encode('unicode_escape')[2:-2])
       list.append(pair)
 
   add_list('compile', list)
@@ -165,5 +168,3 @@ with open('README.md', 'w+') as file:
   others.append(add_maven_repo('AutoValue','com.google.auto.value','auto-value'))
   add_list('compile', others)
 
-with open('README.md') as file:
-  print file.read()
