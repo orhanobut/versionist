@@ -76,13 +76,10 @@ def add_google_play_service(url):
   tags = soup.find_all(['td'])
   list = []
   iterator = iter(tags);
-  # while (iterator.next() != None)
-  try:
-    while True:
-      pair = Pair(iterator.next().string, iterator.next().string)
-      list.append(pair)
-  except:
-    pass
+  for item in iterator:
+    title = item.string
+    deps = next(iterator).string
+    list.append(Pair(title,deps))
   add_list('compile', list)
 
 def add_support_libraries(url):
@@ -123,24 +120,31 @@ def add_maven_repo(title, groupId, artifactId):
   return Pair(title, dependency)
 
 with open('README.md', 'w+') as file:
+  print("Generating content links")
   write("[Android Platform](#android-platform) | [Android Studio](#android-studio) | [Google Play Services](#google-play-services) | [Support Library](#support-library) | [Firebase](#firebase) | [Test](#test) | [Others](#others)\n\n")
   write("---")
 
+  print("Generating Android Platform")
   add_header("Android Platform")
   add_platform('http://developer.android.com/guide/topics/manifest/uses-sdk-element.html')
 
+  print("Generating Android Studio")
   add_header("Android Studio")
   add_android_studio('https://sites.google.com/a/android.com/tools/recent/posts.xml')
 
+  print("Generating Google Play Services")
   add_header("Google Play Services")
   add_google_play_service('https://developers.google.com/android/guides/setup')
 
+  print("Generating Support Library")
   add_header("Support Library")
   add_support_libraries('http://developer.android.com/tools/support-library/features.html')
 
+  print("Generating Firebase")
   add_header("Firebase")
   add_firebase('https://firebase.google.com/docs/android/setup')
 
+  print("Generating Test")
   add_header("Test")
   add_espresso('https://google.github.io/android-testing-support-library/downloads/index.html')
 
@@ -155,6 +159,7 @@ with open('README.md', 'w+') as file:
   testList.append(add_maven_repo('MockServer','com.squareup.okhttp3', 'mockwebserver'))
   add_list('testCompile', testList)
 
+  print("Generating Others")
   add_header("Others")
   others = []
   others.append(add_maven_repo('Gson','com.google.code.gson', 'gson'))
