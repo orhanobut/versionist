@@ -312,6 +312,9 @@ testCompile 'org.mockito:mockito-core:2.0.100-beta'
 // AssertJ
 testCompile 'org.assertj:assertj-core:3.5.2'
 
+// Truth
+testCompile 'com.google.truth:truth:0.29'
+
 // Robolectric
 testCompile 'org.robolectric:robolectric:3.1.2'
 
@@ -346,5 +349,14 @@ compile 'io.reactivex:rxandroid:1.2.1'
 
 // Dagger 2
 compile 'com.google.dagger:dagger:2.6'
+
+// Logger
+compile 'com.orhanobut:logger:1.15'
+
+// Timber
+compile 'com.jakewharton.timber:timber:4.2.0'
+
+// AutoValue
+compile 'com.google.auto.value:auto-value:1.3-rc2'
 
 ```
