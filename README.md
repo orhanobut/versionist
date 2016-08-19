@@ -109,7 +109,7 @@ Highlights</a></td></tr>
 </table>
 
 # Android Studio
-[Android Studio 2.2 Beta Available](https://sites.google.com/a/android.com/tools/recent/androidstudio22betaavailable)
+[Android Studio 2.2 Beta 2](https://sites.google.com/a/android.com/tools/recent/androidstudio22beta2)
 
 [Emulator 25.1.6 Release Notes](https://sites.google.com/a/android.com/tools/recent/emulator2516releasenotes)
 
@@ -189,59 +189,71 @@ compile 'com.google.android.gms:play-services-wearable:9.4.0'
 
 # Support Library
 ```groovy
-// v4 Support Library
-compile 'b'com.android.support:support-v4:24.1.1''
+// v4 compat library
+compile 'b'com.android.support:support-compat:24.2.0''
+
+// v4 core-utils library
+compile 'b'com.android.support:support-core-utils:24.2.0''
+
+// v4 core-ui library
+compile 'b'com.android.support:support-core-ui:24.2.0''
+
+// v4 media-compat library
+compile 'b'com.android.support:support-media-compat:24.2.0''
+
+// v4 fragment library
+compile 'b'com.android.support:support-fragment:24.2.0''
 
 // Multidex Support Library
 compile 'b'com.android.support:multidex:1.0.0''
 
 // v7 appcompat library
-compile 'b'com.android.support:appcompat-v7:24.1.1''
+compile 'b'com.android.support:appcompat-v7:24.2.0''
 
 // v7 cardview library
-compile 'b'com.android.support:cardview-v7:24.1.1''
+compile 'b'com.android.support:cardview-v7:24.2.0''
 
 // v7 gridlayout library
-compile 'b'com.android.support:gridlayout-v7:24.1.1''
+compile 'b'com.android.support:gridlayout-v7:24.2.0''
 
 // v7 mediarouter library
-compile 'b'com.android.support:mediarouter-v7:24.1.1''
+compile 'b'com.android.support:mediarouter-v7:24.2.0''
 
 // v7 palette library
-compile 'b'com.android.support:palette-v7:24.1.1''
+compile 'b'com.android.support:palette-v7:24.2.0''
 
 // v7 recyclerview library
-compile 'b'com.android.support:recyclerview-v7:24.1.1''
+compile 'b'com.android.support:recyclerview-v7:24.2.0''
 
 // v7 Preference Support Library
-compile 'b'com.android.support:preference-v7:24.1.1''
+compile 'b'com.android.support:preference-v7:24.2.0''
 
 // v13 Support Library
-compile 'b'com.android.support:support-v13:24.1.1''
+compile 'b'com.android.support:support-v13:24.2.0''
 
 // v14 Preference Support Library
-compile 'b'com.android.support:preference-v14:24.1.1''
+compile 'b'com.android.support:preference-v14:24.2.0''
 
 // v17 Preference Support Library for TV
-compile 'b'com.android.support:preference-leanback-v17:24.1.1''
+compile 'b'com.android.support:preference-leanback-v17:24.2.0''
 
 // v17 Leanback Library
-compile 'b'com.android.support:leanback-v17:24.1.1''
+compile 'b'com.android.support:leanback-v17:24.2.0''
 
 // Annotations Support Library
-compile 'b'com.android.support:support-annotations:24.1.1''
+compile 'b'com.android.support:support-annotations:24.2.0''
 
 // Design Support Library
-compile 'b'com.android.support:design:24.1.1''
+compile 'b'com.android.support:design:24.2.0''
 
 // Custom Tabs Support Library
-compile 'b'com.android.support:customtabs:24.1.1''
+compile 'b'com.android.support:customtabs:24.2.0''
 
 // Percent Support Library
-compile 'b'com.android.support:percent:24.1.1''
+compile 'b'com.android.support:percent:24.2.0''
 
 // App Recommendation Support Library for TV
-compile 'b'com.android.support:recommendation:24.1.1''
+compile 'b'com.android.support:recommendation:24.2.0''
 
 ```
 
@@ -307,7 +319,7 @@ androidTestCompile 'com.android.support.test.espresso:espresso-idling-resource:2
 testCompile 'junit:junit:4.12'
 
 // Mockito
-testCompile 'org.mockito:mockito-core:2.0.100-beta'
+testCompile 'org.mockito:mockito-core:2.0.106-beta'
 
 // AssertJ
 testCompile 'org.assertj:assertj-core:3.5.2'
@@ -354,7 +366,7 @@ compile 'com.google.dagger:dagger:2.6'
 compile 'com.orhanobut:logger:1.15'
 
 // Timber
-compile 'com.jakewharton.timber:timber:4.2.0'
+compile 'com.jakewharton.timber:timber:4.3.0'
 
 // AutoValue
 compile 'com.google.auto.value:auto-value:1.3-rc2'
