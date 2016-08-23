@@ -3,8 +3,12 @@
 ---
 
 # Android Platform
-<table>
+<table id="api-level-table">
 <tr><th>Platform Version</th><th>API Level</th><th>VERSION_CODE</th><th>Notes</th></tr>
+<tr><td><a href="https://developer.android.com/about/versions/nougat/android-7.0.html">Android 7.0</a></td>
+<td><a href="https://developer.android.com/sdk/api_diff/24/changes.html" title="Diff Report">24</a></td>
+<td><code><a href="https://developer.android.com/reference/android/os/Build.VERSION_CODES.html#N">N</a></code></td>
+<td><a href="https://developer.android.com/about/versions/nougat/index.html">Platform Highlights</a></td></tr>
 <tr><td><a href="https://developer.android.com/about/versions/marshmallow/android-6.0.html">Android 6.0</a></td>
 <td><a href="https://developer.android.com/sdk/api_diff/23/changes.html" title="Diff Report">23</a></td>
 <td><code><a href="https://developer.android.com/reference/android/os/Build.VERSION_CODES.html#M">M</a></code></td>
@@ -319,7 +323,7 @@ androidTestCompile 'com.android.support.test.espresso:espresso-idling-resource:2
 testCompile 'junit:junit:4.12'
 
 // Mockito
-testCompile 'org.mockito:mockito-core:2.0.110-beta'
+testCompile 'org.mockito:mockito-core:2.0.111-beta'
 
 // AssertJ
 testCompile 'org.assertj:assertj-core:3.5.2'
