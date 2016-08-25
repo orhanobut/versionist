@@ -364,7 +364,7 @@ compile 'io.reactivex:rxjava:1.1.9'
 compile 'io.reactivex:rxandroid:1.2.1'
 
 // Dagger 2
-compile 'com.google.dagger:dagger:2.6'
+compile 'com.google.dagger:dagger:2.6.1'
 
 // Logger
 compile 'com.orhanobut:logger:1.15'
