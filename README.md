@@ -113,7 +113,7 @@ Highlights</a></td></tr>
 </table>
 
 # Android Studio
-[Android Studio 2.2 Beta 2](https://sites.google.com/a/android.com/tools/recent/androidstudio22beta2)
+[Android Studio 2.2 Beta 3](https://sites.google.com/a/android.com/tools/recent/androidstudio22beta3)
 
 [Emulator 25.1.6 Release Notes](https://sites.google.com/a/android.com/tools/recent/emulator2516releasenotes)
 
@@ -279,13 +279,13 @@ compile 'com.google.firebase:firebase-crash:9.4.0'
 // Authentication
 compile 'com.google.firebase:firebase-auth:9.4.0'
 
-// Cloud Messaging / Notifications
+// Cloud Messaging and Notifications
 compile 'com.google.firebase:firebase-messaging:9.4.0'
 
 // Remote Config
 compile 'com.google.firebase:firebase-config:9.4.0'
 
-// Invites / Dynamic Links
+// Invites and Dynamic Links
 compile 'com.google.firebase:firebase-invites:9.4.0'
 
 // AdMob
