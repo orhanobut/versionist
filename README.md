@@ -373,6 +373,6 @@ compile 'com.orhanobut:logger:1.15'
 compile 'com.jakewharton.timber:timber:4.3.0'
 
 // AutoValue
-compile 'com.google.auto.value:auto-value:1.3-rc2'
+compile 'com.google.auto.value:auto-value:1.3'
 
 ```
