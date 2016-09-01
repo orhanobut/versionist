@@ -317,13 +317,19 @@ androidTestCompile 'com.android.support.test.espresso:espresso-web:2.2.2'
 // Espresso-idling-resource for synchronization with background jobs
 androidTestCompile 'com.android.support.test.espresso:espresso-idling-resource:2.2.2'
 
+// Espresso-intents for validation and stubbing of Intents
+androidTestCompile 'com.android.support.test.espresso:espresso-intents:2.2.2'
+
+// UiAutomator
+androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.1.2'
+
 ```
 ```groovy
 // JUnit
 testCompile 'junit:junit:4.12'
 
 // Mockito
-testCompile 'org.mockito:mockito-core:2.0.111-beta'
+testCompile 'org.mockito:mockito-core:2.1.0-beta.119'
 
 // AssertJ
 testCompile 'org.assertj:assertj-core:3.5.2'
