@@ -113,7 +113,7 @@ Highlights</a></td></tr>
 </table>
 
 # Android Studio
-[Android Studio 2.2 Beta 3](https://sites.google.com/a/android.com/tools/recent/androidstudio22beta3)
+[Android Studio 2.2 RC is now available](https://sites.google.com/a/android.com/tools/recent/androidstudio22rcisnowavailable)
 
 [Emulator 25.1.6 Release Notes](https://sites.google.com/a/android.com/tools/recent/emulator2516releasenotes)
 
@@ -329,7 +329,7 @@ androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.1.2'
 testCompile 'junit:junit:4.12'
 
 // Mockito
-testCompile 'org.mockito:mockito-core:2.1.0-beta.119'
+testCompile 'org.mockito:mockito-core:2.1.0-beta.120'
 
 // AssertJ
 testCompile 'org.assertj:assertj-core:3.5.2'
