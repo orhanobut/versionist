@@ -115,7 +115,7 @@ Highlights</a></td></tr>
 # Android Studio
 [Android Studio 2.2 RC is now available](https://sites.google.com/a/android.com/tools/recent/androidstudio22rcisnowavailable)
 
-[Emulator 25.1.6 Release Notes](https://sites.google.com/a/android.com/tools/recent/emulator2516releasenotes)
+[Emulator 2.0 Preview Release Notes](https://sites.google.com/a/android.com/tools/recent/emulator20previewreleasenotes)
 
 # Google Play Services
 ```groovy
