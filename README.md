@@ -329,13 +329,13 @@ androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.1.2'
 testCompile 'junit:junit:4.12'
 
 // Mockito
-testCompile 'org.mockito:mockito-core:2.1.0-beta.124'
+testCompile 'org.mockito:mockito-core:2.1.0-beta.125'
 
 // AssertJ
 testCompile 'org.assertj:assertj-core:3.5.2'
 
 // Truth
-testCompile 'com.google.truth:truth:0.29'
+testCompile 'com.google.truth:truth:0.30'
 
 // Robolectric
 testCompile 'org.robolectric:robolectric:3.1.2'
