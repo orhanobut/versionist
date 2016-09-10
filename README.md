@@ -113,7 +113,7 @@ Highlights</a></td></tr>
 </table>
 
 # Android Studio
-[Android Studio 2.2 RC is now available](https://sites.google.com/a/android.com/tools/recent/androidstudio22rcisnowavailable)
+[Android Studio 2.2 RC 2 is now available](https://sites.google.com/a/android.com/tools/recent/androidstudio22rc2isnowavailable)
 
 [Emulator 2.0 Preview Release Notes](https://sites.google.com/a/android.com/tools/recent/emulator20previewreleasenotes)
 
