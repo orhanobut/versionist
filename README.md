@@ -113,7 +113,7 @@ Highlights</a></td></tr>
 </table>
 
 # Android Studio
-[Android Studio 2.2 RC 2 is now available](https://sites.google.com/a/android.com/tools/recent/androidstudio22rc2isnowavailable)
+[ConstraintLayout alpha 8 is now available](https://sites.google.com/a/android.com/tools/recent/constraintlayoutalpha8isnowavailable)
 
 [Emulator 2.0 Preview Release Notes](https://sites.google.com/a/android.com/tools/recent/emulator20previewreleasenotes)
 
@@ -194,70 +194,70 @@ compile 'com.google.android.gms:play-services-wearable:9.4.0'
 # Support Library
 ```groovy
 // v4 compat library
-compile 'b'com.android.support:support-compat:24.2.0''
+compile 'b'com.android.support:support-compat:24.2.1''
 
 // v4 core-utils library
-compile 'b'com.android.support:support-core-utils:24.2.0''
+compile 'b'com.android.support:support-core-utils:24.2.1''
 
 // v4 core-ui library
-compile 'b'com.android.support:support-core-ui:24.2.0''
+compile 'b'com.android.support:support-core-ui:24.2.1''
 
 // v4 media-compat library
-compile 'b'com.android.support:support-media-compat:24.2.0''
+compile 'b'com.android.support:support-media-compat:24.2.1''
 
 // v4 fragment library
-compile 'b'com.android.support:support-fragment:24.2.0''
+compile 'b'com.android.support:support-fragment:24.2.1''
 
 // Multidex Support Library
 compile 'b'com.android.support:multidex:1.0.0''
 
 // v7 appcompat library
-compile 'b'com.android.support:appcompat-v7:24.2.0''
+compile 'b'com.android.support:appcompat-v7:24.2.1''
 
 // v7 cardview library
-compile 'b'com.android.support:cardview-v7:24.2.0''
+compile 'b'com.android.support:cardview-v7:24.2.1''
 
 // v7 gridlayout library
-compile 'b'com.android.support:gridlayout-v7:24.2.0''
+compile 'b'com.android.support:gridlayout-v7:24.2.1''
 
 // v7 mediarouter library
-compile 'b'com.android.support:mediarouter-v7:24.2.0''
+compile 'b'com.android.support:mediarouter-v7:24.2.1''
 
 // v7 palette library
-compile 'b'com.android.support:palette-v7:24.2.0''
+compile 'b'com.android.support:palette-v7:24.2.1''
 
 // v7 recyclerview library
-compile 'b'com.android.support:recyclerview-v7:24.2.0''
+compile 'b'com.android.support:recyclerview-v7:24.2.1''
 
 // v7 Preference Support Library
-compile 'b'com.android.support:preference-v7:24.2.0''
+compile 'b'com.android.support:preference-v7:24.2.1''
 
 // v13 Support Library
-compile 'b'com.android.support:support-v13:24.2.0''
+compile 'b'com.android.support:support-v13:24.2.1''
 
 // v14 Preference Support Library
-compile 'b'com.android.support:preference-v14:24.2.0''
+compile 'b'com.android.support:preference-v14:24.2.1''
 
 // v17 Preference Support Library for TV
-compile 'b'com.android.support:preference-leanback-v17:24.2.0''
+compile 'b'com.android.support:preference-leanback-v17:24.2.1''
 
 // v17 Leanback Library
-compile 'b'com.android.support:leanback-v17:24.2.0''
+compile 'b'com.android.support:leanback-v17:24.2.1''
 
 // Annotations Support Library
-compile 'b'com.android.support:support-annotations:24.2.0''
+compile 'b'com.android.support:support-annotations:24.2.1''
 
 // Design Support Library
-compile 'b'com.android.support:design:24.2.0''
+compile 'b'com.android.support:design:24.2.1''
 
 // Custom Tabs Support Library
-compile 'b'com.android.support:customtabs:24.2.0''
+compile 'b'com.android.support:customtabs:24.2.1''
 
 // Percent Support Library
-compile 'b'com.android.support:percent:24.2.0''
+compile 'b'com.android.support:percent:24.2.1''
 
 // App Recommendation Support Library for TV
-compile 'b'com.android.support:recommendation:24.2.0''
+compile 'b'com.android.support:recommendation:24.2.1''
 
 ```
 
@@ -370,7 +370,7 @@ compile 'io.reactivex:rxjava:1.1.10'
 compile 'io.reactivex:rxandroid:1.2.1'
 
 // Dagger 2
-compile 'com.google.dagger:dagger:2.6.1'
+compile 'com.google.dagger:dagger:2.7'
 
 // Logger
 compile 'com.orhanobut:logger:1.15'
