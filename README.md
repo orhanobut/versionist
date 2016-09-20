@@ -113,9 +113,9 @@ Highlights</a></td></tr>
 </table>
 
 # Android Studio
-[ConstraintLayout alpha 8 is now available](https://sites.google.com/a/android.com/tools/recent/constraintlayoutalpha8isnowavailable)
+[Android Studio 2.2 and Emulator 25.2.2 are Stable](https://sites.google.com/a/android.com/tools/recent/androidstudio22andemulator2522arestable)
 
-[Emulator 2.0 Preview Release Notes](https://sites.google.com/a/android.com/tools/recent/emulator20previewreleasenotes)
+[Emulator 25.2.2 are Stable](https://sites.google.com/a/android.com/tools/recent/androidstudio22andemulator2522arestable)
 
 # Google Play Services
 ```groovy
@@ -376,7 +376,7 @@ compile 'com.google.dagger:dagger:2.7'
 compile 'com.orhanobut:logger:1.15'
 
 // Timber
-compile 'com.jakewharton.timber:timber:4.3.0'
+compile 'com.jakewharton.timber:timber:4.3.1'
 
 // AutoValue
 compile 'com.google.auto.value:auto-value:1.3'
