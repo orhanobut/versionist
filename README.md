@@ -120,73 +120,73 @@ Highlights</a></td></tr>
 # Google Play Services
 ```groovy
 // Google+
-compile 'com.google.android.gms:play-services-plus:9.4.0'
+compile 'com.google.android.gms:play-services-plus:9.6.0'
 
 // Google Account Login
-compile 'com.google.android.gms:play-services-auth:9.4.0'
+compile 'com.google.android.gms:play-services-auth:9.6.0'
 
 // Google Actions, Base Client Library
-compile 'com.google.android.gms:play-services-base:9.4.0'
+compile 'com.google.android.gms:play-services-base:9.6.0'
 
 // Google Address API
-compile 'com.google.android.gms:play-services-identity:9.4.0'
+compile 'com.google.android.gms:play-services-identity:9.6.0'
 
 // Google App Indexing
-compile 'com.google.android.gms:play-services-appindexing:9.4.0'
+compile 'com.google.android.gms:play-services-appindexing:9.6.0'
 
 // Google App Invites
-compile 'com.google.android.gms:play-services-appinvite:9.4.0'
+compile 'com.google.android.gms:play-services-appinvite:9.6.0'
 
 // Google Analytics
-compile 'com.google.android.gms:play-services-analytics:9.4.0'
+compile 'com.google.android.gms:play-services-analytics:9.6.0'
 
 // Google Awareness
-compile 'com.google.android.gms:play-services-contextmanager:9.4.0'
+compile 'com.google.android.gms:play-services-contextmanager:9.6.0'
 
 // Google Cast
-compile 'com.google.android.gms:play-services-cast:9.4.0'
+compile 'com.google.android.gms:play-services-cast:9.6.0'
 
 // Google Cloud Messaging
-compile 'com.google.android.gms:play-services-gcm:9.4.0'
+compile 'com.google.android.gms:play-services-gcm:9.6.0'
 
 // Google Drive
-compile 'com.google.android.gms:play-services-drive:9.4.0'
+compile 'com.google.android.gms:play-services-drive:9.6.0'
 
 // Google Fit
-compile 'com.google.android.gms:play-services-fitness:9.4.0'
+compile 'com.google.android.gms:play-services-fitness:9.6.0'
 
 // Google Location and Activity Recognition
-compile 'com.google.android.gms:play-services-location:9.4.0'
+compile 'com.google.android.gms:play-services-location:9.6.0'
 
 // Google Maps
-compile 'com.google.android.gms:play-services-maps:9.4.0'
+compile 'com.google.android.gms:play-services-maps:9.6.0'
 
 // Google Mobile Ads
-compile 'com.google.android.gms:play-services-ads:9.4.0'
+compile 'com.google.android.gms:play-services-ads:9.6.0'
 
 // Google Places
-compile 'com.google.android.gms:play-services-places:9.4.0'
+compile 'com.google.android.gms:play-services-places:9.6.0'
 
 // Mobile Vision
-compile 'com.google.android.gms:play-services-vision:9.4.0'
+compile 'com.google.android.gms:play-services-vision:9.6.0'
 
 // Google Nearby
-compile 'com.google.android.gms:play-services-nearby:9.4.0'
+compile 'com.google.android.gms:play-services-nearby:9.6.0'
 
 // Google Panorama Viewer
-compile 'com.google.android.gms:play-services-panorama:9.4.0'
+compile 'com.google.android.gms:play-services-panorama:9.6.0'
 
 // Google Play Game services
-compile 'com.google.android.gms:play-services-games:9.4.0'
+compile 'com.google.android.gms:play-services-games:9.6.0'
 
 // SafetyNet
-compile 'com.google.android.gms:play-services-safetynet:9.4.0'
+compile 'com.google.android.gms:play-services-safetynet:9.6.0'
 
 // Android Pay
-compile 'com.google.android.gms:play-services-wallet:9.4.0'
+compile 'com.google.android.gms:play-services-wallet:9.6.0'
 
 // Android Wear
-compile 'com.google.android.gms:play-services-wearable:9.4.0'
+compile 'com.google.android.gms:play-services-wearable:9.6.0'
 
 ```
 
@@ -265,34 +265,34 @@ compile 'b'com.android.support:recommendation:24.2.1''
 # Firebase
 ```groovy
 // Analytics
-compile 'com.google.firebase:firebase-core:9.4.0'
+compile 'com.google.firebase:firebase-core:9.6.0'
 
 // Realtime Database
-compile 'com.google.firebase:firebase-database:9.4.0'
+compile 'com.google.firebase:firebase-database:9.6.0'
 
 // Storage
-compile 'com.google.firebase:firebase-storage:9.4.0'
+compile 'com.google.firebase:firebase-storage:9.6.0'
 
 // Crash Reporting
-compile 'com.google.firebase:firebase-crash:9.4.0'
+compile 'com.google.firebase:firebase-crash:9.6.0'
 
 // Authentication
-compile 'com.google.firebase:firebase-auth:9.4.0'
+compile 'com.google.firebase:firebase-auth:9.6.0'
 
 // Cloud Messaging and Notifications
-compile 'com.google.firebase:firebase-messaging:9.4.0'
+compile 'com.google.firebase:firebase-messaging:9.6.0'
 
 // Remote Config
-compile 'com.google.firebase:firebase-config:9.4.0'
+compile 'com.google.firebase:firebase-config:9.6.0'
 
 // Invites and Dynamic Links
-compile 'com.google.firebase:firebase-invites:9.4.0'
+compile 'com.google.firebase:firebase-invites:9.6.0'
 
 // AdMob
-compile 'com.google.firebase:firebase-ads:9.4.0'
+compile 'com.google.firebase:firebase-ads:9.6.0'
 
 // App Indexing
-compile 'com.google.android.gms:play-services-appindexing:9.4.0'
+compile 'com.google.android.gms:play-services-appindexing:9.6.0'
 
 ```
 
