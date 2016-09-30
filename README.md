@@ -113,7 +113,7 @@ Highlights</a></td></tr>
 </table>
 
 # Android Studio
-[Android Studio 2.2 and Emulator 25.2.2 are Stable](https://sites.google.com/a/android.com/tools/recent/androidstudio22andemulator2522arestable)
+[ConstraintLayout alpha 9 is now available](https://sites.google.com/a/android.com/tools/recent/constraintlayoutalpha9isnowavailable)
 
 [Emulator 25.2.2 are Stable](https://sites.google.com/a/android.com/tools/recent/androidstudio22andemulator2522arestable)
 
@@ -329,7 +329,7 @@ androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.1.2'
 testCompile 'junit:junit:4.12'
 
 // Mockito
-testCompile 'org.mockito:mockito-core:2.1.0-RC.1'
+testCompile 'org.mockito:mockito-core:2.1.0-RC.2'
 
 // AssertJ
 testCompile 'org.assertj:assertj-core:3.5.2'
