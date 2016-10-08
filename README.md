@@ -113,7 +113,7 @@ Highlights</a></td></tr>
 </table>
 
 # Android Studio
-[ConstraintLayout alpha 9 is now available](https://sites.google.com/a/android.com/tools/recent/constraintlayoutalpha9isnowavailable)
+[Android Studio 2.2.1 is now Available](https://sites.google.com/a/android.com/tools/recent/androidstudio221isnowavailable)
 
 [Emulator 25.2.2 are Stable](https://sites.google.com/a/android.com/tools/recent/androidstudio22andemulator2522arestable)
 
