@@ -141,7 +141,7 @@ compile 'com.google.android.gms:play-services-appinvite:9.6.1'
 compile 'com.google.android.gms:play-services-analytics:9.6.1'
 
 // Google Awareness
-compile 'com.google.android.gms:play-services-contextmanager:9.6.1'
+compile 'com.google.android.gms:play-services-awareness:9.6.1'
 
 // Google Cast
 compile 'com.google.android.gms:play-services-cast:9.6.1'
@@ -329,7 +329,7 @@ androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.1.2'
 testCompile 'junit:junit:4.12'
 
 // Mockito
-testCompile 'org.mockito:mockito-core:2.2.0'
+testCompile 'org.mockito:mockito-core:2.2.1'
 
 // AssertJ
 testCompile 'org.assertj:assertj-core:3.5.2'
