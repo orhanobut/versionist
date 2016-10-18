@@ -329,7 +329,7 @@ androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.1.2'
 testCompile 'junit:junit:4.12'
 
 // Mockito
-testCompile 'org.mockito:mockito-core:2.2.3'
+testCompile 'org.mockito:mockito-core:2.2.5'
 
 // AssertJ
 testCompile 'org.assertj:assertj-core:3.5.2'
@@ -379,6 +379,6 @@ compile 'com.orhanobut:logger:1.15'
 compile 'com.jakewharton.timber:timber:4.3.1'
 
 // AutoValue
-compile 'com.google.auto.value:auto-value:1.3'
+compile 'com.google.auto.value:auto-value:1.4-rc1'
 
 ```
