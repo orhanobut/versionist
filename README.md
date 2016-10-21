@@ -113,7 +113,7 @@ Highlights</a></td></tr>
 </table>
 
 # Android Studio
-[Android Studio 2.2.2 is now Available](https://sites.google.com/a/android.com/tools/recent/androidstudio222isnowavailable)
+[ConstraintLayout beta 1 is now available](https://sites.google.com/a/android.com/tools/recent/constraintlayoutbeta1isnowavailable)
 
 [Emulator 25.2.2 are Stable](https://sites.google.com/a/android.com/tools/recent/androidstudio22andemulator2522arestable)
 
