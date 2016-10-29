@@ -113,7 +113,7 @@ Highlights</a></td></tr>
 </table>
 
 # Android Studio
-[ConstraintLayout beta 1 is now available](https://sites.google.com/a/android.com/tools/recent/constraintlayoutbeta1isnowavailable)
+[ConstraintLayout beta 2 is now available](https://sites.google.com/a/android.com/tools/recent/constraintlayoutbeta2isnowavailable)
 
 [Emulator 25.2.2 are Stable](https://sites.google.com/a/android.com/tools/recent/androidstudio22andemulator2522arestable)
 
@@ -355,7 +355,7 @@ testCompile 'com.squareup.okhttp3:mockwebserver:3.4.1'
 # Others
 ```groovy
 // Gson
-compile 'com.google.code.gson:gson:2.7'
+compile 'com.google.code.gson:gson:2.8.0'
 
 // OkHttp3
 compile 'com.squareup.okhttp3:okhttp:3.4.1'
