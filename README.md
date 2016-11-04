@@ -113,7 +113,7 @@ Highlights</a></td></tr>
 </table>
 
 # Android Studio
-[ConstraintLayout beta 2 is now available](https://sites.google.com/a/android.com/tools/recent/constraintlayoutbeta2isnowavailable)
+[ConstraintLayout beta 3 is now available](https://sites.google.com/a/android.com/tools/recent/constraintlayoutbeta3isnowavailable)
 
 [Emulator 25.2.2 are Stable](https://sites.google.com/a/android.com/tools/recent/androidstudio22andemulator2522arestable)
 
@@ -329,7 +329,7 @@ androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.1.2'
 testCompile 'junit:junit:4.12'
 
 // Mockito
-testCompile 'org.mockito:mockito-core:2.2.9'
+testCompile 'org.mockito:mockito-core:2.2.10'
 
 // AssertJ
 testCompile 'org.assertj:assertj-core:3.5.2'
@@ -364,7 +364,7 @@ compile 'com.squareup.okhttp3:okhttp:3.4.1'
 compile 'com.squareup.okhttp3:logging-interceptor:3.4.1'
 
 // RxJava
-compile 'io.reactivex:rxjava:1.2.1'
+compile 'io.reactivex:rxjava:1.2.2'
 
 // RxAndroid
 compile 'io.reactivex:rxandroid:1.2.1'
