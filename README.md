@@ -113,7 +113,7 @@ Highlights</a></td></tr>
 </table>
 
 # Android Studio
-[ConstraintLayout beta 3 is now available](https://sites.google.com/a/android.com/tools/recent/constraintlayoutbeta3isnowavailable)
+[Android Studio 2.3 Canary Available](https://sites.google.com/a/android.com/tools/recent/androidstudio23canaryavailable)
 
 [Emulator 25.2.2 are Stable](https://sites.google.com/a/android.com/tools/recent/androidstudio22andemulator2522arestable)
 
