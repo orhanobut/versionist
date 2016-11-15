@@ -194,70 +194,70 @@ compile 'com.google.android.gms:play-services-wearable:9.8.0'
 # Support Library
 ```groovy
 // v4 compat library
-compile 'b'com.android.support:support-compat:25.0.0''
+compile 'b'com.android.support:support-compat:25.0.1''
 
 // v4 core-utils library
-compile 'b'com.android.support:support-core-utils:25.0.0''
+compile 'b'com.android.support:support-core-utils:25.0.1''
 
 // v4 core-ui library
-compile 'b'com.android.support:support-core-ui:25.0.0''
+compile 'b'com.android.support:support-core-ui:25.0.1''
 
 // v4 media-compat library
-compile 'b'com.android.support:support-media-compat:25.0.0''
+compile 'b'com.android.support:support-media-compat:25.0.1''
 
 // v4 fragment library
-compile 'b'com.android.support:support-fragment:25.0.0''
+compile 'b'com.android.support:support-fragment:25.0.1''
 
 // Multidex Support Library
 compile 'b'com.android.support:multidex:1.0.0''
 
 // v7 appcompat library
-compile 'b'com.android.support:appcompat-v7:25.0.0''
+compile 'b'com.android.support:appcompat-v7:25.0.1''
 
 // v7 cardview library
-compile 'b'com.android.support:cardview-v7:25.0.0''
+compile 'b'com.android.support:cardview-v7:25.0.1''
 
 // v7 gridlayout library
-compile 'b'com.android.support:gridlayout-v7:25.0.0''
+compile 'b'com.android.support:gridlayout-v7:25.0.1''
 
 // v7 mediarouter library
-compile 'b'com.android.support:mediarouter-v7:25.0.0''
+compile 'b'com.android.support:mediarouter-v7:25.0.1''
 
 // v7 palette library
-compile 'b'com.android.support:palette-v7:25.0.0''
+compile 'b'com.android.support:palette-v7:25.0.1''
 
 // v7 recyclerview library
-compile 'b'com.android.support:recyclerview-v7:25.0.0''
+compile 'b'com.android.support:recyclerview-v7:25.0.1''
 
 // v7 Preference Support Library
-compile 'b'com.android.support:preference-v7:25.0.0''
+compile 'b'com.android.support:preference-v7:25.0.1''
 
 // v13 Support Library
-compile 'b'com.android.support:support-v13:25.0.0''
+compile 'b'com.android.support:support-v13:25.0.1''
 
 // v14 Preference Support Library
-compile 'b'com.android.support:preference-v14:25.0.0''
+compile 'b'com.android.support:preference-v14:25.0.1''
 
 // v17 Preference Support Library for TV
-compile 'b'com.android.support:preference-leanback-v17:25.0.0''
+compile 'b'com.android.support:preference-leanback-v17:25.0.1''
 
 // v17 Leanback Library
-compile 'b'com.android.support:leanback-v17:25.0.0''
+compile 'b'com.android.support:leanback-v17:25.0.1''
 
 // Annotations Support Library
-compile 'b'com.android.support:support-annotations:25.0.0''
+compile 'b'com.android.support:support-annotations:25.0.1''
 
 // Design Support Library
-compile 'b'com.android.support:design:25.0.0''
+compile 'b'com.android.support:design:25.0.1''
 
 // Custom Tabs Support Library
-compile 'b'com.android.support:customtabs:25.0.0''
+compile 'b'com.android.support:customtabs:25.0.1''
 
 // Percent Support Library
-compile 'b'com.android.support:percent:25.0.0''
+compile 'b'com.android.support:percent:25.0.1''
 
 // App Recommendation Support Library for TV
-compile 'b'com.android.support:recommendation:25.0.0''
+compile 'b'com.android.support:recommendation:25.0.1''
 
 ```
 
@@ -329,7 +329,7 @@ androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.1.2'
 testCompile 'junit:junit:4.12'
 
 // Mockito
-testCompile 'org.mockito:mockito-core:2.2.15'
+testCompile 'org.mockito:mockito-core:2.2.16'
 
 // AssertJ
 testCompile 'org.assertj:assertj-core:3.5.2'
