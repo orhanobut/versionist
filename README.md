@@ -113,7 +113,7 @@ Highlights</a></td></tr>
 </table>
 
 # Android Studio
-[Android Studio 2.3 Canary Available](https://sites.google.com/a/android.com/tools/recent/androidstudio23canaryavailable)
+[ConstraintLayout beta 4 is now available](https://sites.google.com/a/android.com/tools/recent/constraintlayoutbeta4isnowavailable)
 
 [Emulator 25.2.2 are Stable](https://sites.google.com/a/android.com/tools/recent/androidstudio22andemulator2522arestable)
 
@@ -329,7 +329,7 @@ androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.1.2'
 testCompile 'junit:junit:4.12'
 
 // Mockito
-testCompile 'org.mockito:mockito-core:2.2.16'
+testCompile 'org.mockito:mockito-core:2.2.17'
 
 // AssertJ
 testCompile 'org.assertj:assertj-core:3.5.2'
