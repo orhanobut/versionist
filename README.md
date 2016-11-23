@@ -113,7 +113,7 @@ Highlights</a></td></tr>
 </table>
 
 # Android Studio
-[ConstraintLayout beta 4 is now available](https://sites.google.com/a/android.com/tools/recent/constraintlayoutbeta4isnowavailable)
+[Android Studio 2.3 Canary 2 is now Available](https://sites.google.com/a/android.com/tools/recent/androidstudio23canary2isnowavailable)
 
 [Emulator 25.2.2 are Stable](https://sites.google.com/a/android.com/tools/recent/androidstudio22andemulator2522arestable)
 
@@ -131,8 +131,8 @@ compile 'com.google.android.gms:play-services-base:10.0.0'
 // Google Address API
 compile 'com.google.android.gms:play-services-identity:10.0.0'
 
-// Google App Indexing
-compile 'com.google.android.gms:play-services-appindexing:10.0.0'
+// Firebase App Indexing
+compile 'com.google.firebase:firebase-appindexing:10.0.0'
 
 // Google App Invites
 compile 'com.google.android.gms:play-services-appinvite:10.0.0'
@@ -265,34 +265,34 @@ compile 'b'com.android.support:recommendation:25.0.1''
 # Firebase
 ```groovy
 // Analytics
-compile 'com.google.firebase:firebase-core:9.8.0'
+compile 'com.google.firebase:firebase-core:10.0.0'
 
 // Realtime Database
-compile 'com.google.firebase:firebase-database:9.8.0'
+compile 'com.google.firebase:firebase-database:10.0.0'
 
 // Storage
-compile 'com.google.firebase:firebase-storage:9.8.0'
+compile 'com.google.firebase:firebase-storage:10.0.0'
 
 // Crash Reporting
-compile 'com.google.firebase:firebase-crash:9.8.0'
+compile 'com.google.firebase:firebase-crash:10.0.0'
 
 // Authentication
-compile 'com.google.firebase:firebase-auth:9.8.0'
+compile 'com.google.firebase:firebase-auth:10.0.0'
 
 // Cloud Messaging and Notifications
-compile 'com.google.firebase:firebase-messaging:9.8.0'
+compile 'com.google.firebase:firebase-messaging:10.0.0'
 
 // Remote Config
-compile 'com.google.firebase:firebase-config:9.8.0'
+compile 'com.google.firebase:firebase-config:10.0.0'
 
 // Invites and Dynamic Links
-compile 'com.google.firebase:firebase-invites:9.8.0'
+compile 'com.google.firebase:firebase-invites:10.0.0'
 
 // AdMob
-compile 'com.google.firebase:firebase-ads:9.8.0'
+compile 'com.google.firebase:firebase-ads:10.0.0'
 
 // App Indexing
-compile 'com.google.android.gms:play-services-appindexing:9.8.0'
+compile 'com.google.firebase:firebase-appindexing:10.0.0'
 
 ```
 
@@ -370,7 +370,7 @@ compile 'io.reactivex:rxjava:1.2.2'
 compile 'io.reactivex:rxandroid:1.2.1'
 
 // Dagger 2
-compile 'com.google.dagger:dagger:2.7'
+compile 'com.google.dagger:dagger:2.8'
 
 // Logger
 compile 'com.orhanobut:logger:1.15'
