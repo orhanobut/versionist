@@ -364,7 +364,7 @@ compile 'com.squareup.okhttp3:okhttp:3.4.2'
 compile 'com.squareup.okhttp3:logging-interceptor:3.4.2'
 
 // RxJava
-compile 'io.reactivex:rxjava:1.2.2'
+compile 'io.reactivex:rxjava:1.2.3'
 
 // RxAndroid
 compile 'io.reactivex:rxandroid:1.2.1'
