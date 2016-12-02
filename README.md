@@ -347,7 +347,7 @@ testCompile 'org.robolectric:shadows-support-v4:3.1.4'
 testCompile 'org.robolectric:shadows-play-services:3.1.4'
 
 // MockServer
-testCompile 'com.squareup.okhttp3:mockwebserver:3.4.2'
+testCompile 'com.squareup.okhttp3:mockwebserver:3.5.0'
 
 ```
 
@@ -358,10 +358,10 @@ testCompile 'com.squareup.okhttp3:mockwebserver:3.4.2'
 compile 'com.google.code.gson:gson:2.8.0'
 
 // OkHttp3
-compile 'com.squareup.okhttp3:okhttp:3.4.2'
+compile 'com.squareup.okhttp3:okhttp:3.5.0'
 
 // OkHttp3 Logging Interceptor
-compile 'com.squareup.okhttp3:logging-interceptor:3.4.2'
+compile 'com.squareup.okhttp3:logging-interceptor:3.5.0'
 
 // RxJava
 compile 'io.reactivex:rxjava:1.2.3'
