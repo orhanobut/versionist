@@ -5,6 +5,10 @@
 # Android Platform
 <table id="api-level-table">
 <tr><th>Platform Version</th><th>API Level</th><th>VERSION_CODE</th><th>Notes</th></tr>
+<tr><td><a href="https://developer.android.com/about/versions/nougat/android-7.1.html">Android 7.1.1<br>Android 7.1</br></a></td>
+<td><a href="https://developer.android.com/sdk/api_diff/25/changes.html" title="Diff Report">25</a></td>
+<td><code><a href="https://developer.android.com/reference/android/os/Build.VERSION_CODES.html#N_MR1">N_MR1</a></code></td>
+<td><a href="https://developer.android.com/about/versions/nougat/index.html">Platform Highlights</a></td></tr>
 <tr><td><a href="https://developer.android.com/about/versions/nougat/android-7.0.html">Android 7.0</a></td>
 <td><a href="https://developer.android.com/sdk/api_diff/24/changes.html" title="Diff Report">24</a></td>
 <td><code><a href="https://developer.android.com/reference/android/os/Build.VERSION_CODES.html#N">N</a></code></td>
@@ -347,7 +351,7 @@ testCompile 'org.robolectric:shadows-support-v4:3.1.4'
 testCompile 'org.robolectric:shadows-play-services:3.1.4'
 
 // MockServer
-testCompile 'com.squareup.okhttp3:mockwebserver:3.4.2'
+testCompile 'com.squareup.okhttp3:mockwebserver:3.5.0'
 
 ```
 
@@ -361,7 +365,7 @@ compile 'com.google.code.gson:gson:2.8.0'
 compile 'com.squareup.okhttp3:okhttp:3.4.2'
 
 // OkHttp3 Logging Interceptor
-compile 'com.squareup.okhttp3:logging-interceptor:3.4.2'
+compile 'com.squareup.okhttp3:logging-interceptor:3.5.0'
 
 // RxJava
 compile 'io.reactivex:rxjava:1.2.3'
