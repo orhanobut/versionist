@@ -117,7 +117,7 @@ Highlights</a></td></tr>
 </table>
 
 # Android Studio
-[Android Studio 2.3 Canary 2 is now Available](https://sites.google.com/a/android.com/tools/recent/androidstudio23canary2isnowavailable)
+[Android Studio 2.2.3 is now Available](https://sites.google.com/a/android.com/tools/recent/androidstudio223isnowavailable)
 
 [Emulator 25.2.2 are Stable](https://sites.google.com/a/android.com/tools/recent/androidstudio22andemulator2522arestable)
 
@@ -137,9 +137,6 @@ compile 'com.google.android.gms:play-services-identity:10.0.1'
 
 // Firebase App Indexing
 compile 'com.google.firebase:firebase-appindexing:10.0.1'
-
-// Google App Invites
-compile 'com.google.android.gms:play-services-appinvite:10.0.1'
 
 // Google Analytics
 compile 'com.google.android.gms:play-services-analytics:10.0.1'
@@ -362,7 +359,7 @@ testCompile 'com.squareup.okhttp3:mockwebserver:3.5.0'
 compile 'com.google.code.gson:gson:2.8.0'
 
 // OkHttp3
-compile 'com.squareup.okhttp3:okhttp:3.4.2'
+compile 'com.squareup.okhttp3:okhttp:3.5.0'
 
 // OkHttp3 Logging Interceptor
 compile 'com.squareup.okhttp3:logging-interceptor:3.5.0'
@@ -380,7 +377,7 @@ compile 'com.google.dagger:dagger:2.8'
 compile 'com.orhanobut:logger:1.15'
 
 // Timber
-compile 'com.jakewharton.timber:timber:4.3.1'
+compile 'com.jakewharton.timber:timber:4.4.0'
 
 // AutoValue
 compile 'com.google.auto.value:auto-value:1.4-rc1'
