@@ -117,7 +117,7 @@ Highlights</a></td></tr>
 </table>
 
 # Android Studio
-[Android Studio 2.2.3 is now Available](https://sites.google.com/a/android.com/tools/recent/androidstudio223isnowavailable)
+[Updating SDK from command-line](https://sites.google.com/a/android.com/tools/recent/updatingsdkfromcommand-line)
 
 [Emulator 25.2.2 are Stable](https://sites.google.com/a/android.com/tools/recent/androidstudio22andemulator2522arestable)
 
