@@ -333,7 +333,7 @@ androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.1.2'
 testCompile 'junit:junit:4.12'
 
 // Mockito
-testCompile 'org.mockito:mockito-core:2.3.4'
+testCompile 'org.mockito:mockito-core:2.3.5'
 
 // AssertJ
 testCompile 'org.assertj:assertj-core:3.6.1'
@@ -368,7 +368,7 @@ compile 'com.squareup.okhttp3:okhttp:3.5.0'
 compile 'com.squareup.okhttp3:logging-interceptor:3.5.0'
 
 // RxJava
-compile 'io.reactivex:rxjava:1.2.3'
+compile 'io.reactivex:rxjava:1.2.4'
 
 // RxAndroid
 compile 'io.reactivex:rxandroid:1.2.1'
