@@ -117,7 +117,7 @@ Highlights</a></td></tr>
 </table>
 
 # Android Studio
-[Android Studio 2.3 Canary 3 is now Available](https://sites.google.com/a/android.com/tools/recent/androidstudio23canary3isnowavailable)
+[Android Studio 2.3 Beta 1 is now available](https://sites.google.com/a/android.com/tools/recent/androidstudio23beta1isnowavailable)
 
 [Emulator 25.2.2 are Stable](https://sites.google.com/a/android.com/tools/recent/androidstudio22andemulator2522arestable)
 
