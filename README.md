@@ -273,13 +273,13 @@ testCompile 'org.assertj:assertj-core:3.6.1'
 testCompile 'com.google.truth:truth:0.31'
 
 // Robolectric
-testCompile 'org.robolectric:robolectric:3.2-rc1'
+testCompile 'org.robolectric:robolectric:3.2'
 
 // Robolectric Shadows Support v4
-testCompile 'org.robolectric:shadows-support-v4:3.2-rc1'
+testCompile 'org.robolectric:shadows-support-v4:3.2'
 
 // Robolectric Shadows Play Services
-testCompile 'org.robolectric:shadows-play-services:3.2-rc1'
+testCompile 'org.robolectric:shadows-play-services:3.2'
 
 // MockServer
 testCompile 'com.squareup.okhttp3:mockwebserver:3.5.0'
