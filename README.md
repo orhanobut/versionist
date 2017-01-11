@@ -117,7 +117,7 @@ Highlights</a></td></tr>
 </table>
 
 # Android Studio
-[Android Studio 2.3 Beta 1 is now available](https://sites.google.com/a/android.com/tools/recent/androidstudio23beta1isnowavailable)
+[Android Studio 2.3 Beta 2 is now available](https://sites.google.com/a/android.com/tools/recent/androidstudio23beta2isnowavailable)
 
 [Emulator 25.2.2 are Stable](https://sites.google.com/a/android.com/tools/recent/androidstudio22andemulator2522arestable)
 
@@ -264,7 +264,7 @@ androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.1.2'
 testCompile 'junit:junit:4.12'
 
 // Mockito
-testCompile 'org.mockito:mockito-core:2.5.5'
+testCompile 'org.mockito:mockito-core:2.5.6'
 
 // AssertJ
 testCompile 'org.assertj:assertj-core:3.6.1'
@@ -311,7 +311,7 @@ compile 'com.google.dagger:dagger:2.8'
 compile 'com.orhanobut:logger:1.15'
 
 // Timber
-compile 'com.jakewharton.timber:timber:4.4.0'
+compile 'com.jakewharton.timber:timber:4.5.0'
 
 // AutoValue
 compile 'com.google.auto.value:auto-value:1.4-rc1'
