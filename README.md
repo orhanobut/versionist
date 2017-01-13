@@ -264,7 +264,7 @@ androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.1.2'
 testCompile 'junit:junit:4.12'
 
 // Mockito
-testCompile 'org.mockito:mockito-core:2.5.7'
+testCompile 'org.mockito:mockito-core:2.6.1'
 
 // AssertJ
 testCompile 'org.assertj:assertj-core:3.6.1'
@@ -273,13 +273,13 @@ testCompile 'org.assertj:assertj-core:3.6.1'
 testCompile 'com.google.truth:truth:0.31'
 
 // Robolectric
-testCompile 'org.robolectric:robolectric:3.2.1'
+testCompile 'org.robolectric:robolectric:3.2.2'
 
 // Robolectric Shadows Support v4
-testCompile 'org.robolectric:shadows-support-v4:3.2.1'
+testCompile 'org.robolectric:shadows-support-v4:3.2.2'
 
 // Robolectric Shadows Play Services
-testCompile 'org.robolectric:shadows-play-services:3.2.1'
+testCompile 'org.robolectric:shadows-play-services:3.2.2'
 
 // MockServer
 testCompile 'com.squareup.okhttp3:mockwebserver:3.5.0'
