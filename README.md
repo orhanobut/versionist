@@ -264,10 +264,10 @@ androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.1.2'
 testCompile 'junit:junit:4.12'
 
 // Mockito
-testCompile 'org.mockito:mockito-core:2.6.4'
+testCompile 'org.mockito:mockito-core:2.6.5'
 
 // AssertJ
-testCompile 'org.assertj:assertj-core:3.6.1'
+testCompile 'org.assertj:assertj-core:3.6.2'
 
 // Truth
 testCompile 'com.google.truth:truth:0.31'
@@ -311,7 +311,7 @@ compile 'com.google.dagger:dagger:2.8'
 compile 'com.orhanobut:logger:1.15'
 
 // Timber
-compile 'com.jakewharton.timber:timber:4.5.0'
+compile 'com.jakewharton.timber:timber:4.5.1'
 
 // AutoValue
 compile 'com.google.auto.value:auto-value:1.4-rc1'
