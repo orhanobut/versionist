@@ -117,7 +117,7 @@ Highlights</a></td></tr>
 </table>
 
 # Android Studio
-[Android Studio 2.3 Beta 2 is now available](https://sites.google.com/a/android.com/tools/recent/androidstudio23beta2isnowavailable)
+[Android Studio 2.3 Beta 3 is now available](https://sites.google.com/a/android.com/tools/recent/androidstudio23beta3isnowavailable)
 
 [Emulator 25.2.2 are Stable](https://sites.google.com/a/android.com/tools/recent/androidstudio22andemulator2522arestable)
 
