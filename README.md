@@ -264,7 +264,7 @@ androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.1.2'
 testCompile 'junit:junit:4.12'
 
 // Mockito
-testCompile 'org.mockito:mockito-core:2.6.9'
+testCompile 'org.mockito:mockito-core:2.7.0'
 
 // AssertJ
 testCompile 'org.assertj:assertj-core:3.6.2'
@@ -282,7 +282,7 @@ testCompile 'org.robolectric:shadows-support-v4:3.2.2'
 testCompile 'org.robolectric:shadows-play-services:3.2.2'
 
 // MockServer
-testCompile 'com.squareup.okhttp3:mockwebserver:3.5.0'
+testCompile 'com.squareup.okhttp3:mockwebserver:3.6.0'
 
 ```
 
@@ -293,10 +293,10 @@ testCompile 'com.squareup.okhttp3:mockwebserver:3.5.0'
 compile 'com.google.code.gson:gson:2.8.0'
 
 // OkHttp3
-compile 'com.squareup.okhttp3:okhttp:3.5.0'
+compile 'com.squareup.okhttp3:okhttp:3.6.0'
 
 // OkHttp3 Logging Interceptor
-compile 'com.squareup.okhttp3:logging-interceptor:3.5.0'
+compile 'com.squareup.okhttp3:logging-interceptor:3.6.0'
 
 // RxJava
 compile 'io.reactivex:rxjava:1.2.5'
