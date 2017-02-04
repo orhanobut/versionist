@@ -299,13 +299,13 @@ compile 'com.squareup.okhttp3:okhttp:3.6.0'
 compile 'com.squareup.okhttp3:logging-interceptor:3.6.0'
 
 // RxJava
-compile 'io.reactivex:rxjava:1.2.5'
+compile 'io.reactivex:rxjava:1.2.6'
 
 // RxAndroid
 compile 'io.reactivex:rxandroid:1.2.1'
 
 // Dagger 2
-compile 'com.google.dagger:dagger:2.8'
+compile 'com.google.dagger:dagger:2.9'
 
 // Logger
 compile 'com.orhanobut:logger:1.15'
@@ -314,6 +314,6 @@ compile 'com.orhanobut:logger:1.15'
 compile 'com.jakewharton.timber:timber:4.5.1'
 
 // AutoValue
-compile 'com.google.auto.value:auto-value:1.4-rc1'
+compile 'com.google.auto.value:auto-value:1.4-rc2'
 
 ```
