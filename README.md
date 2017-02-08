@@ -117,7 +117,7 @@ Highlights</a></td></tr>
 </table>
 
 # Android Studio
-[Android Studio 2.3 Beta 3 is now available](https://sites.google.com/a/android.com/tools/recent/androidstudio23beta3isnowavailable)
+[ProGuard Improvements](https://sites.google.com/a/android.com/tools/recent/proguardimprovements)
 
 [Emulator 25.2.2 are Stable](https://sites.google.com/a/android.com/tools/recent/androidstudio22andemulator2522arestable)
 
@@ -264,7 +264,7 @@ androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.1.2'
 testCompile 'junit:junit:4.12'
 
 // Mockito
-testCompile 'org.mockito:mockito-core:2.7.4'
+testCompile 'org.mockito:mockito-core:2.7.5'
 
 // AssertJ
 testCompile 'org.assertj:assertj-core:3.6.2'
