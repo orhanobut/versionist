@@ -117,9 +117,9 @@ Highlights</a></td></tr>
 </table>
 
 # Android Studio
-[ProGuard Improvements](https://sites.google.com/a/android.com/tools/recent/proguardimprovements)
+[Android Studio 2.3 Beta 4 is now available](https://sites.google.com/a/android.com/tools/recent/androidstudio23beta4isnowavailable)
 
-[Emulator 25.2.2 are Stable](https://sites.google.com/a/android.com/tools/recent/androidstudio22andemulator2522arestable)
+[Emulator Revision 25.3.0 (Feb 2017)](https://sites.google.com/a/android.com/tools/recent/androidemulatorrevision2530feb2017)
 
 # Google Play Services
 ```groovy
