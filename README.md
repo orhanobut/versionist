@@ -117,7 +117,7 @@ Highlights</a></td></tr>
 </table>
 
 # Android Studio
-[Android Studio 2.3 Beta 4 is now available](https://sites.google.com/a/android.com/tools/recent/androidstudio23beta4isnowavailable)
+[ConstraintLayout beta 5 is now available](https://sites.google.com/a/android.com/tools/recent/constraintlayoutbeta5isnowavailable)
 
 [Emulator Revision 25.3.0 (Feb 2017)](https://sites.google.com/a/android.com/tools/recent/androidemulatorrevision2530feb2017)
 
