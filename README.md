@@ -261,7 +261,7 @@ androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.1.2'
 testCompile 'junit:junit:4.12'
 
 // Mockito
-testCompile 'org.mockito:mockito-core:2.7.10'
+testCompile 'org.mockito:mockito-core:2.7.11'
 
 // AssertJ
 testCompile 'org.assertj:assertj-core:3.6.2'
@@ -302,7 +302,7 @@ compile 'io.reactivex:rxjava:1.2.6'
 compile 'io.reactivex:rxandroid:1.2.1'
 
 // Dagger 2
-compile 'com.google.dagger:dagger:2.9'
+compile 'com.google.dagger:dagger:2.10-rc1'
 
 // Logger
 compile 'com.orhanobut:logger:1.15'
