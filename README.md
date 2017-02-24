@@ -117,7 +117,7 @@ Highlights</a></td></tr>
 </table>
 
 # Android Studio
-[Android Studio 2.3 RC 1 is Now Available](https://sites.google.com/a/android.com/tools/recent/androidstudio23rc1isnowavailable)
+[ConstraintLayout 1.0 is now available](https://sites.google.com/a/android.com/tools/recent/constraintlayout10isnowavailable)
 
 [Emulator Revision 25.3.0 (Feb 2017)](https://sites.google.com/a/android.com/tools/recent/androidemulatorrevision2530feb2017)
 
@@ -267,7 +267,7 @@ testCompile 'org.mockito:mockito-core:2.7.11'
 testCompile 'org.assertj:assertj-core:3.6.2'
 
 // Truth
-testCompile 'com.google.truth:truth:0.31'
+testCompile 'com.google.truth:truth:0.32'
 
 // Robolectric
 testCompile 'org.robolectric:robolectric:3.2.2'
