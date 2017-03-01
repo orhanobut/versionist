@@ -261,7 +261,7 @@ androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.1.2'
 testCompile 'junit:junit:4.12'
 
 // Mockito
-testCompile 'org.mockito:mockito-core:2.7.12'
+testCompile 'org.mockito:mockito-core:2.7.13'
 
 // AssertJ
 testCompile 'org.assertj:assertj-core:3.6.2'
