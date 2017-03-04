@@ -270,13 +270,13 @@ testCompile 'org.assertj:assertj-core:3.6.2'
 testCompile 'com.google.truth:truth:0.32'
 
 // Robolectric
-testCompile 'org.robolectric:robolectric:3.2.2'
+testCompile 'org.robolectric:robolectric:3.3'
 
 // Robolectric Shadows Support v4
-testCompile 'org.robolectric:shadows-support-v4:3.2.2'
+testCompile 'org.robolectric:shadows-support-v4:3.3'
 
 // Robolectric Shadows Play Services
-testCompile 'org.robolectric:shadows-play-services:3.2.2'
+testCompile 'org.robolectric:shadows-play-services:3.3'
 
 // MockServer
 testCompile 'com.squareup.okhttp3:mockwebserver:3.6.0'
@@ -302,7 +302,7 @@ compile 'io.reactivex:rxjava:1.2.7'
 compile 'io.reactivex:rxandroid:1.2.1'
 
 // Dagger 2
-compile 'com.google.dagger:dagger:2.10-rc1'
+compile 'com.google.dagger:dagger:2.10-rc2'
 
 // Logger
 compile 'com.orhanobut:logger:1.15'
