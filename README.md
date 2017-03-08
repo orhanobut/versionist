@@ -117,7 +117,7 @@ Highlights</a></td></tr>
 </table>
 
 # Android Studio
-[ConstraintLayout 1.0.1 is now available](https://sites.google.com/a/android.com/tools/recent/constraintlayout101isnowavailable)
+[ConstraintLayout 1.0.2 is now available](https://sites.google.com/a/android.com/tools/recent/constraintlayout102isnowavailable)
 
 [Emulator Revision 25.3.0 (Feb 2017)](https://sites.google.com/a/android.com/tools/recent/androidemulatorrevision2530feb2017)
 
@@ -311,6 +311,6 @@ compile 'com.orhanobut:logger:1.15'
 compile 'com.jakewharton.timber:timber:4.5.1'
 
 // AutoValue
-compile 'com.google.auto.value:auto-value:1.4-rc2'
+compile 'com.google.auto.value:auto-value:1.4-rc3'
 
 ```
