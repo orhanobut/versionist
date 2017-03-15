@@ -117,7 +117,7 @@ Highlights</a></td></tr>
 </table>
 
 # Android Studio
-[ConstraintLayout 1.0.2 is now available](https://sites.google.com/a/android.com/tools/recent/constraintlayout102isnowavailable)
+[Android Studio 2.4 Preview 1 is now Available](https://sites.google.com/a/android.com/tools/recent/androidstudio24preview1isnowavailable)
 
 [Emulator Revision 25.3.0 (Feb 2017)](https://sites.google.com/a/android.com/tools/recent/androidemulatorrevision2530feb2017)
 
