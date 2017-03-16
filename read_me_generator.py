@@ -1,4 +1,4 @@
-from urllib.request import urlopen
+from urllib2 import urlopen
 import os
 from bs4 import BeautifulSoup
 
@@ -138,7 +138,7 @@ with open('README.md', 'w+') as file:
 
   print("Generating Support Library")
   add_header("Support Library")
-  add_support_libraries('http://developer.android.com/tools/support-library/features.html')
+  add_support_libraries('https://developer.android.com/topic/libraries/support-library/packages.html')
 
   print("Generating Firebase")
   add_header("Firebase")
