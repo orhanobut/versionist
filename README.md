@@ -191,6 +191,75 @@ compile 'com.google.android.gms:play-services-wearable:10.2.0'
 
 # Support Library
 ```groovy
+// v4 compat library
+compile 'com.android.support:support-compat:25.3.0'
+
+// v4 core-utils library
+compile 'com.android.support:support-core-utils:25.3.0'
+
+// v4 core-ui library
+compile 'com.android.support:support-core-ui:25.3.0'
+
+// v4 media-compat library
+compile 'com.android.support:support-media-compat:25.3.0'
+
+// v4 fragment library
+compile 'com.android.support:support-fragment:25.3.0'
+
+// Multidex Support Library
+compile 'com.android.support:multidex:1.0.0'
+
+// v7 appcompat library
+compile 'com.android.support:appcompat-v7:25.3.0'
+
+// v7 cardview library
+compile 'com.android.support:cardview-v7:25.3.0'
+
+// v7 gridlayout library
+compile 'com.android.support:gridlayout-v7:25.3.0'
+
+// v7 mediarouter library
+compile 'com.android.support:mediarouter-v7:25.3.0'
+
+// v7 palette library
+compile 'com.android.support:palette-v7:25.3.0'
+
+// v7 recyclerview library
+compile 'com.android.support:recyclerview-v7:25.3.0'
+
+// v7 Preference Support Library
+compile 'com.android.support:preference-v7:25.3.0'
+
+// v13 Support Library
+compile 'com.android.support:support-v13:25.3.0'
+
+// v14 Preference Support Library
+compile 'com.android.support:preference-v14:25.3.0'
+
+// v17 Preference Support Library for TV
+compile 'com.android.support:preference-leanback-v17:25.3.0'
+
+// v17 Leanback Library
+compile 'com.android.support:leanback-v17:25.3.0'
+
+// Annotations Support Library
+compile 'com.android.support:support-annotations:25.3.0'
+
+// Design Support Library
+compile 'com.android.support:design:25.3.0'
+
+// Custom Tabs Support Library
+compile 'com.android.support:customtabs:25.3.0'
+
+// Percent Support Library
+compile 'com.android.support:percent:25.3.0'
+
+// ExifInterface Support Library
+compile 'com.android.support:exifinterface:25.3.0'
+
+// App Recommendation Support Library for TV
+compile 'com.android.support:recommendation:25.3.0'
+
 ```
 
 
