@@ -124,176 +124,107 @@ Highlights</a></td></tr>
 # Google Play Services
 ```groovy
 // Google+
-compile 'com.google.android.gms:play-services-plus:10.2.0'
+compile 'com.google.android.gms:play-services-plus:10.2.6'
 
 // Google Account Login
-compile 'com.google.android.gms:play-services-auth:10.2.0'
+compile 'com.google.android.gms:play-services-auth:10.2.6'
 
 // Google Actions, Base Client Library
-compile 'com.google.android.gms:play-services-base:10.2.0'
+compile 'com.google.android.gms:play-services-base:10.2.6'
 
 // Google Address API
-compile 'com.google.android.gms:play-services-identity:10.2.0'
+compile 'com.google.android.gms:play-services-identity:10.2.6'
 
 // Google Analytics
-compile 'com.google.android.gms:play-services-analytics:10.2.0'
+compile 'com.google.android.gms:play-services-analytics:10.2.6'
 
 // Google Awareness
-compile 'com.google.android.gms:play-services-awareness:10.2.0'
+compile 'com.google.android.gms:play-services-awareness:10.2.6'
 
 // Google Cast
-compile 'com.google.android.gms:play-services-cast:10.2.0'
+compile 'com.google.android.gms:play-services-cast:10.2.6'
 
 // Google Cloud Messaging
-compile 'com.google.android.gms:play-services-gcm:10.2.0'
+compile 'com.google.android.gms:play-services-gcm:10.2.6'
 
 // Google Drive
-compile 'com.google.android.gms:play-services-drive:10.2.0'
+compile 'com.google.android.gms:play-services-drive:10.2.6'
 
 // Google Fit
-compile 'com.google.android.gms:play-services-fitness:10.2.0'
+compile 'com.google.android.gms:play-services-fitness:10.2.6'
 
 // Google Location and Activity Recognition
-compile 'com.google.android.gms:play-services-location:10.2.0'
+compile 'com.google.android.gms:play-services-location:10.2.6'
 
 // Google Maps
-compile 'com.google.android.gms:play-services-maps:10.2.0'
+compile 'com.google.android.gms:play-services-maps:10.2.6'
 
 // Google Mobile Ads
-compile 'com.google.android.gms:play-services-ads:10.2.0'
+compile 'com.google.android.gms:play-services-ads:10.2.6'
 
 // Google Places
-compile 'com.google.android.gms:play-services-places:10.2.0'
+compile 'com.google.android.gms:play-services-places:10.2.6'
 
 // Mobile Vision
-compile 'com.google.android.gms:play-services-vision:10.2.0'
+compile 'com.google.android.gms:play-services-vision:10.2.6'
 
 // Google Nearby
-compile 'com.google.android.gms:play-services-nearby:10.2.0'
+compile 'com.google.android.gms:play-services-nearby:10.2.6'
 
 // Google Panorama Viewer
-compile 'com.google.android.gms:play-services-panorama:10.2.0'
+compile 'com.google.android.gms:play-services-panorama:10.2.6'
 
 // Google Play Game services
-compile 'com.google.android.gms:play-services-games:10.2.0'
+compile 'com.google.android.gms:play-services-games:10.2.6'
 
 // SafetyNet
-compile 'com.google.android.gms:play-services-safetynet:10.2.0'
+compile 'com.google.android.gms:play-services-safetynet:10.2.6'
 
 // Android Pay
-compile 'com.google.android.gms:play-services-wallet:10.2.0'
+compile 'com.google.android.gms:play-services-wallet:10.2.6'
 
 // Android Wear
-compile 'com.google.android.gms:play-services-wearable:10.2.0'
+compile 'com.google.android.gms:play-services-wearable:10.2.6'
 
 ```
 
 
 # Support Library
 ```groovy
-// v4 compat library
-compile 'com.android.support:support-compat:25.3.0'
-
-// v4 core-utils library
-compile 'com.android.support:support-core-utils:25.3.0'
-
-// v4 core-ui library
-compile 'com.android.support:support-core-ui:25.3.0'
-
-// v4 media-compat library
-compile 'com.android.support:support-media-compat:25.3.0'
-
-// v4 fragment library
-compile 'com.android.support:support-fragment:25.3.0'
-
-// Multidex Support Library
-compile 'com.android.support:multidex:1.0.0'
-
-// v7 appcompat library
-compile 'com.android.support:appcompat-v7:25.3.0'
-
-// v7 cardview library
-compile 'com.android.support:cardview-v7:25.3.0'
-
-// v7 gridlayout library
-compile 'com.android.support:gridlayout-v7:25.3.0'
-
-// v7 mediarouter library
-compile 'com.android.support:mediarouter-v7:25.3.0'
-
-// v7 palette library
-compile 'com.android.support:palette-v7:25.3.0'
-
-// v7 recyclerview library
-compile 'com.android.support:recyclerview-v7:25.3.0'
-
-// v7 Preference Support Library
-compile 'com.android.support:preference-v7:25.3.0'
-
-// v13 Support Library
-compile 'com.android.support:support-v13:25.3.0'
-
-// v14 Preference Support Library
-compile 'com.android.support:preference-v14:25.3.0'
-
-// v17 Preference Support Library for TV
-compile 'com.android.support:preference-leanback-v17:25.3.0'
-
-// v17 Leanback Library
-compile 'com.android.support:leanback-v17:25.3.0'
-
-// Annotations Support Library
-compile 'com.android.support:support-annotations:25.3.0'
-
-// Design Support Library
-compile 'com.android.support:design:25.3.0'
-
-// Custom Tabs Support Library
-compile 'com.android.support:customtabs:25.3.0'
-
-// Percent Support Library
-compile 'com.android.support:percent:25.3.0'
-
-// ExifInterface Support Library
-compile 'com.android.support:exifinterface:25.3.0'
-
-// App Recommendation Support Library for TV
-compile 'com.android.support:recommendation:25.3.0'
-
 ```
 
 
 # Firebase
 ```groovy
 // Analytics
-compile 'com.google.firebase:firebase-core:10.2.0'
+compile 'com.google.firebase:firebase-core:10.2.6'
 
 // Realtime Database
-compile 'com.google.firebase:firebase-database:10.2.0'
+compile 'com.google.firebase:firebase-database:10.2.6'
 
 // Storage
-compile 'com.google.firebase:firebase-storage:10.2.0'
+compile 'com.google.firebase:firebase-storage:10.2.6'
 
 // Crash Reporting
-compile 'com.google.firebase:firebase-crash:10.2.0'
+compile 'com.google.firebase:firebase-crash:10.2.6'
 
 // Authentication
-compile 'com.google.firebase:firebase-auth:10.2.0'
+compile 'com.google.firebase:firebase-auth:10.2.6'
 
-// Cloud Messaging and Notifications
-compile 'com.google.firebase:firebase-messaging:10.2.0'
+// Cloud Messaging
+compile 'com.google.firebase:firebase-messaging:10.2.6'
 
 // Remote Config
-compile 'com.google.firebase:firebase-config:10.2.0'
+compile 'com.google.firebase:firebase-config:10.2.6'
 
 // Invites and Dynamic Links
-compile 'com.google.firebase:firebase-invites:10.2.0'
+compile 'com.google.firebase:firebase-invites:10.2.6'
 
 // AdMob
-compile 'com.google.firebase:firebase-ads:10.2.0'
+compile 'com.google.firebase:firebase-ads:10.2.6'
 
 // App Indexing
-compile 'com.google.firebase:firebase-appindexing:10.2.0'
+compile 'com.google.firebase:firebase-appindexing:10.2.6'
 
 ```
 
@@ -330,25 +261,36 @@ androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.1.2'
 testCompile 'junit:junit:4.12'
 
 // Mockito
-testCompile 'org.mockito:mockito-core:2.7.17'
+testCompile 'org.mockito:mockito-core:2.8.9'
 
 // AssertJ
-testCompile 'org.assertj:assertj-core:3.6.2'
+testCompile 'org.assertj:assertj-core:3.8.0'
 
 // Truth
-testCompile 'com.google.truth:truth:0.32'
+testCompile 'com.google.truth:truth:0.33'
 
 // Robolectric
-testCompile 'org.robolectric:robolectric:3.3.1'
+testCompile 'org.robolectric:robolectric:3.4-rc2'
 
 // Robolectric Shadows Support v4
-testCompile 'org.robolectric:shadows-support-v4:3.3.1'
+testCompile 'org.robolectric:shadows-support-v4:3.4-rc2'
 
 // Robolectric Shadows Play Services
-testCompile 'org.robolectric:shadows-play-services:3.3.1'
+testCompile 'org.robolectric:shadows-play-services:3.4-rc2'
 
 // MockServer
-testCompile 'com.squareup.okhttp3:mockwebserver:3.6.0'
+testCompile 'com.squareup.okhttp3:mockwebserver:3.8.0'
+
+```
+
+
+# Kotlin
+```groovy
+// Kotlin Gradle Plugin
+classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.1.2-4'
+
+// Kotlin Android Extension
+classpath 'org.jetbrains.kotlin:kotlin-android-extensions:1.1.2-4'
 
 ```
 
@@ -356,30 +298,30 @@ testCompile 'com.squareup.okhttp3:mockwebserver:3.6.0'
 # Others
 ```groovy
 // Gson
-compile 'com.google.code.gson:gson:2.8.0'
+compile 'com.google.code.gson:gson:2.8.1'
 
 // OkHttp3
-compile 'com.squareup.okhttp3:okhttp:3.6.0'
+compile 'com.squareup.okhttp3:okhttp:3.8.0'
 
 // OkHttp3 Logging Interceptor
-compile 'com.squareup.okhttp3:logging-interceptor:3.6.0'
+compile 'com.squareup.okhttp3:logging-interceptor:3.8.0'
 
 // RxJava
-compile 'io.reactivex:rxjava:1.2.7'
+compile 'io.reactivex:rxjava:1.3.0'
 
 // RxAndroid
 compile 'io.reactivex:rxandroid:1.2.1'
 
 // Dagger 2
-compile 'com.google.dagger:dagger:2.10-rc4'
+compile 'com.google.dagger:dagger:2.11'
 
 // Logger
-compile 'com.orhanobut:logger:1.15'
+compile 'com.orhanobut:logger:2.1.0'
 
 // Timber
 compile 'com.jakewharton.timber:timber:4.5.1'
 
 // AutoValue
-compile 'com.google.auto.value:auto-value:1.4-rc3'
+compile 'com.google.auto.value:auto-value:1.4.1'
 
 ```
