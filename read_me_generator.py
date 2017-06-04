@@ -34,11 +34,11 @@ def get_soup(url):
     return BeautifulSoup(response, 'html.parser')
 
 
-def add_list(compileType, list):
+def add_list(compile_type, dependency_list):
     file.write("```groovy\n")
-    for pair in list:
+    for pair in dependency_list:
         file.write('// ' + pair.title + "\n")
-        file.write(compileType + " '" + str(pair.dependency) + "'\n\n")
+        file.write(compile_type + " '" + str(pair.dependency) + "'\n\n")
     file.write("```\n")
 
 
@@ -52,13 +52,13 @@ def add_platform(url):
 
 def add_espresso(url):
     title = None
-    list = []
+    dependency_list = []
     for tag in get_soup(url).find_all('span', ["c1", "s1"]):
         if tag['class'][0] == 'c1':
             title = tag
         if tag['class'][0] == 's1':
-            list.append(Pair(title.string[3:], tag.string[1:-1]))
-    add_list('androidTestCompile', list)
+            dependency_list.append(Pair(title.string[3:], tag.string[1:-1]))
+    add_list('androidTestCompile', dependency_list)
 
 
 def add_android_studio(url):
@@ -71,14 +71,14 @@ def add_android_studio(url):
         title = entry.title.string
         for link in entry.find_all('link'):
             if link['rel'][0] == 'alternate':
-                if android_studio == None:
+                if android_studio is None:
                     android_studio = "[" + title + "](" + link['href'] + ")"
                 if "Emulator" in title:
-                    if emulator == None:
+                    if emulator is None:
                         index = title.find("Emulator")
                         emulator = "[" + title[index:] + "](" + link['href'] + ")"
 
-        if android_studio != None and emulator != None:
+        if android_studio is not None and emulator is not None:
             write(android_studio + "\n\n" + emulator)
             return
 
@@ -86,60 +86,61 @@ def add_android_studio(url):
 def add_google_play_service(url):
     soup = get_soup(url)
     tags = soup.find_all(['td'])
-    list = []
+    dependency_list = []
     iterator = iter(tags)
     for item in iterator:
         title = item.string
         deps = next(iterator).string
-        list.append(Pair(title, deps))
-    add_list('compile', list)
+        dependency_list.append(Pair(title, deps))
+    add_list('compile', dependency_list)
 
 
 def add_support_libraries(url):
     soup = get_soup(url)
     tags = soup.find_all(['h2', 'h3', 'pre'])
 
-    list = []
+    dependency_list = []
     title = None
     for tag in tags:
         if tag.name == 'h2' or tag.name == 'h3':
             title = tag.string
         if tag.name == 'pre' and "renderscript" not in tag.string:
             pair = Pair(title, str(tag.string).encode('unicode_escape')[2:-2])
-            list.append(pair)
+            dependency_list.append(pair)
 
-    add_list('compile', list)
+    add_list('compile', dependency_list)
 
 
 def add_firebase(url):
     soup = get_soup(url)
     tags = soup.find_all(['td'])
 
-    list = []
+    dependency_list = []
     for i in range(0, len(tags) - 1, 2):
         title = tags[i + 1].string
         dependency = tags[i].string
         pair = Pair(title, dependency)
-        list.append(pair)
+        dependency_list.append(pair)
 
-    add_list('compile', list)
+    add_list('compile', dependency_list)
 
 
-def add_maven_repo(title, groupId, artifactId):
-    url = 'https://maven-badges.herokuapp.com/maven-central/' + groupId + '/' + artifactId
+def add_maven_repo(title, group_id, artifact_id):
+    url = 'https://maven-badges.herokuapp.com/maven-central/' + group_id + '/' + artifact_id
     context = ssl._create_unverified_context()
     res = urlopen(url, context=context)
-    finalurl = res.geturl()
+    final_url = res.geturl()
 
-    list = finalurl.split('%7C')
-    dependency = list[1] + ":" + list[2] + ":" + list[3]
+    dependency_list = final_url.split('%7C')
+    dependency = dependency_list[1] + ":" + dependency_list[2] + ":" + dependency_list[3]
     return Pair(title, dependency)
 
 
 with open('README.md', 'w+') as file:
     print("Generating content links")
-    write(
-        "[Android Platform](#android-platform) | [Android Studio](#android-studio) | [Google Play Services](#google-play-services) | [Support Library](#support-library) | [Firebase](#firebase) | [Test](#test) | [Others](#others)\n\n")
+    write("[Android Platform](#android-platform) | [Android Studio](#android-studio) "
+          "| [Google Play Services](#google-play-services) | [Support Library](#support-library) "
+          "| [Firebase](#firebase) | [Test](#test) | [Others](#others)\n\n")
     write("---")
 
     print("Generating Android Platform")
@@ -166,33 +167,36 @@ with open('README.md', 'w+') as file:
     add_header("Test")
     add_espresso('https://google.github.io/android-testing-support-library/downloads/index.html')
 
-    testList = []
-    testList.append(add_maven_repo('JUnit', 'junit', 'junit'))
-    testList.append(add_maven_repo('Mockito', 'org.mockito', 'mockito-core'))
-    testList.append(add_maven_repo('AssertJ', 'org.assertj', 'assertj-core'))
-    testList.append(add_maven_repo('Truth', 'com.google.truth', 'truth'))
-    testList.append(add_maven_repo('Robolectric', 'org.robolectric', 'robolectric'))
-    testList.append(add_maven_repo('Robolectric Shadows Support v4', 'org.robolectric', 'shadows-support-v4'))
-    testList.append(add_maven_repo('Robolectric Shadows Play Services', 'org.robolectric', 'shadows-play-services'))
-    testList.append(add_maven_repo('MockServer', 'com.squareup.okhttp3', 'mockwebserver'))
+    testList = [
+        add_maven_repo('JUnit', 'junit', 'junit'), add_maven_repo('Mockito', 'org.mockito', 'mockito-core'),
+        add_maven_repo('AssertJ', 'org.assertj', 'assertj-core'),
+        add_maven_repo('Truth', 'com.google.truth', 'truth'),
+        add_maven_repo('Robolectric', 'org.robolectric', 'robolectric'),
+        add_maven_repo('Robolectric Shadows Support v4', 'org.robolectric', 'shadows-support-v4'),
+        add_maven_repo('Robolectric Shadows Play Services', 'org.robolectric', 'shadows-play-services'),
+        add_maven_repo('MockServer', 'com.squareup.okhttp3', 'mockwebserver')
+    ]
     add_list('testCompile', testList)
 
     print("Generating Kotlin")
     add_header("Kotlin")
-    kotlin = []
-    kotlin.append(add_maven_repo('Kotlin Gradle Plugin', 'org.jetbrains.kotlin', 'kotlin-gradle-plugin'))
-    kotlin.append(add_maven_repo('Kotlin Android Extension', 'org.jetbrains.kotlin', 'kotlin-android-extensions'))
+    kotlin = [
+        add_maven_repo('Kotlin Gradle Plugin', 'org.jetbrains.kotlin', 'kotlin-gradle-plugin'),
+        add_maven_repo('Kotlin Android Extension', 'org.jetbrains.kotlin', 'kotlin-android-extensions')
+    ]
+    add_list('classpath', kotlin)
 
     print("Generating Others")
     add_header("Others")
-    others = []
-    others.append(add_maven_repo('Gson', 'com.google.code.gson', 'gson'))
-    others.append(add_maven_repo('OkHttp3', 'com.squareup.okhttp3', 'okhttp'))
-    others.append(add_maven_repo('OkHttp3 Logging Interceptor', 'com.squareup.okhttp3', 'logging-interceptor'))
-    others.append(add_maven_repo('RxJava', 'io.reactivex', 'rxjava'))
-    others.append(add_maven_repo('RxAndroid', 'io.reactivex', 'rxandroid'))
-    others.append(add_maven_repo('Dagger 2', 'com.google.dagger', 'dagger'))
-    others.append(add_maven_repo('Logger', 'com.orhanobut', 'logger'))
-    others.append(add_maven_repo('Timber', 'com.jakewharton.timber', 'timber'))
-    others.append(add_maven_repo('AutoValue', 'com.google.auto.value', 'auto-value'))
+    others = [
+        add_maven_repo('Gson', 'com.google.code.gson', 'gson'),
+        add_maven_repo('OkHttp3', 'com.squareup.okhttp3', 'okhttp'),
+        add_maven_repo('OkHttp3 Logging Interceptor', 'com.squareup.okhttp3', 'logging-interceptor'),
+        add_maven_repo('RxJava', 'io.reactivex', 'rxjava'),
+        add_maven_repo('RxAndroid', 'io.reactivex', 'rxandroid'),
+        add_maven_repo('Dagger 2', 'com.google.dagger', 'dagger'),
+        add_maven_repo('Logger', 'com.orhanobut', 'logger'),
+        add_maven_repo('Timber', 'com.jakewharton.timber', 'timber'),
+        add_maven_repo('AutoValue', 'com.google.auto.value', 'auto-value')
+    ]
     add_list('compile', others)
