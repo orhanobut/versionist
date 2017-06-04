@@ -177,6 +177,12 @@ with open('README.md', 'w+') as file:
     testList.append(add_maven_repo('MockServer', 'com.squareup.okhttp3', 'mockwebserver'))
     add_list('testCompile', testList)
 
+    print("Generating Kotlin")
+    add_header("Kotlin")
+    kotlin = []
+    kotlin.append(add_maven_repo('Kotlin Gradle Plugin', 'org.jetbrains.kotlin', 'kotlin-gradle-plugin'))
+    kotlin.append(add_maven_repo('Kotlin Android Extension', 'org.jetbrains.kotlin', 'kotlin-android-extensions'))
+
     print("Generating Others")
     add_header("Others")
     others = []
