@@ -316,7 +316,7 @@ compile 'io.reactivex:rxandroid:1.2.1'
 compile 'com.google.dagger:dagger:2.11'
 
 // Logger
-compile 'com.orhanobut:logger:2.1.0'
+compile 'com.orhanobut:logger:2.1.1'
 
 // Timber
 compile 'com.jakewharton.timber:timber:4.5.1'
