@@ -296,3 +296,32 @@ classpath 'org.jetbrains.kotlin:kotlin-android-extensions:1.1.2-4'
 
 
 # Others
+```groovy
+// Gson
+compile 'com.google.code.gson:gson:2.8.1'
+
+// OkHttp3
+compile 'com.squareup.okhttp3:okhttp:3.8.0'
+
+// OkHttp3 Logging Interceptor
+compile 'com.squareup.okhttp3:logging-interceptor:3.8.0'
+
+// RxJava
+compile 'io.reactivex:rxjava:1.3.0'
+
+// RxAndroid
+compile 'io.reactivex:rxandroid:1.2.1'
+
+// Dagger 2
+compile 'com.google.dagger:dagger:2.11'
+
+// Logger
+compile 'com.orhanobut:logger:2.1.1'
+
+// Timber
+compile 'com.jakewharton.timber:timber:4.5.1'
+
+// AutoValue
+compile 'com.google.auto.value:auto-value:1.4.1'
+
+```
