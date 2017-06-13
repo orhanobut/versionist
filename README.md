@@ -287,10 +287,10 @@ testCompile 'com.squareup.okhttp3:mockwebserver:3.8.0'
 # Kotlin
 ```groovy
 // Kotlin Gradle Plugin
-classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.1.2-4'
+classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.1.2-5'
 
 // Kotlin Android Extension
-classpath 'org.jetbrains.kotlin:kotlin-android-extensions:1.1.2-4'
+classpath 'org.jetbrains.kotlin:kotlin-android-extensions:1.1.2-5'
 
 ```
 
