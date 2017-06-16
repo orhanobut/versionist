@@ -124,67 +124,67 @@ Highlights</a></td></tr>
 # Google Play Services
 ```groovy
 // Google+
-compile 'com.google.android.gms:play-services-plus:11.0.0'
+compile 'com.google.android.gms:play-services-plus:11.0.1'
 
 // Google Account Login
-compile 'com.google.android.gms:play-services-auth:11.0.0'
+compile 'com.google.android.gms:play-services-auth:11.0.1'
 
 // Google Actions, Base Client Library
-compile 'com.google.android.gms:play-services-base:11.0.0'
+compile 'com.google.android.gms:play-services-base:11.0.1'
 
 // Google Address API
-compile 'com.google.android.gms:play-services-identity:11.0.0'
+compile 'com.google.android.gms:play-services-identity:11.0.1'
 
 // Google Analytics
-compile 'com.google.android.gms:play-services-analytics:11.0.0'
+compile 'com.google.android.gms:play-services-analytics:11.0.1'
 
 // Google Awareness
-compile 'com.google.android.gms:play-services-awareness:11.0.0'
+compile 'com.google.android.gms:play-services-awareness:11.0.1'
 
 // Google Cast
-compile 'com.google.android.gms:play-services-cast:11.0.0'
+compile 'com.google.android.gms:play-services-cast:11.0.1'
 
 // Google Cloud Messaging
-compile 'com.google.android.gms:play-services-gcm:11.0.0'
+compile 'com.google.android.gms:play-services-gcm:11.0.1'
 
 // Google Drive
-compile 'com.google.android.gms:play-services-drive:11.0.0'
+compile 'com.google.android.gms:play-services-drive:11.0.1'
 
 // Google Fit
-compile 'com.google.android.gms:play-services-fitness:11.0.0'
+compile 'com.google.android.gms:play-services-fitness:11.0.1'
 
 // Google Location and Activity Recognition
-compile 'com.google.android.gms:play-services-location:11.0.0'
+compile 'com.google.android.gms:play-services-location:11.0.1'
 
 // Google Maps
-compile 'com.google.android.gms:play-services-maps:11.0.0'
+compile 'com.google.android.gms:play-services-maps:11.0.1'
 
 // Google Mobile Ads
-compile 'com.google.android.gms:play-services-ads:11.0.0'
+compile 'com.google.android.gms:play-services-ads:11.0.1'
 
 // Google Places
-compile 'com.google.android.gms:play-services-places:11.0.0'
+compile 'com.google.android.gms:play-services-places:11.0.1'
 
 // Mobile Vision
-compile 'com.google.android.gms:play-services-vision:11.0.0'
+compile 'com.google.android.gms:play-services-vision:11.0.1'
 
 // Google Nearby
-compile 'com.google.android.gms:play-services-nearby:11.0.0'
+compile 'com.google.android.gms:play-services-nearby:11.0.1'
 
 // Google Panorama Viewer
-compile 'com.google.android.gms:play-services-panorama:11.0.0'
+compile 'com.google.android.gms:play-services-panorama:11.0.1'
 
 // Google Play Game services
-compile 'com.google.android.gms:play-services-games:11.0.0'
+compile 'com.google.android.gms:play-services-games:11.0.1'
 
 // SafetyNet
-compile 'com.google.android.gms:play-services-safetynet:11.0.0'
+compile 'com.google.android.gms:play-services-safetynet:11.0.1'
 
 // Android Pay
-compile 'com.google.android.gms:play-services-wallet:11.0.0'
+compile 'com.google.android.gms:play-services-wallet:11.0.1'
 
 // Android Wear
-compile 'com.google.android.gms:play-services-wearable:11.0.0'
+compile 'com.google.android.gms:play-services-wearable:11.0.1'
 
 ```
 
@@ -197,34 +197,34 @@ compile 'com.google.android.gms:play-services-wearable:11.0.0'
 # Firebase
 ```groovy
 // Analytics
-compile 'com.google.firebase:firebase-core:11.0.0'
+compile 'com.google.firebase:firebase-core:11.0.1'
 
 // Realtime Database
-compile 'com.google.firebase:firebase-database:11.0.0'
+compile 'com.google.firebase:firebase-database:11.0.1'
 
 // Storage
-compile 'com.google.firebase:firebase-storage:11.0.0'
+compile 'com.google.firebase:firebase-storage:11.0.1'
 
 // Crash Reporting
-compile 'com.google.firebase:firebase-crash:11.0.0'
+compile 'com.google.firebase:firebase-crash:11.0.1'
 
 // Authentication
-compile 'com.google.firebase:firebase-auth:11.0.0'
+compile 'com.google.firebase:firebase-auth:11.0.1'
 
 // Cloud Messaging
-compile 'com.google.firebase:firebase-messaging:11.0.0'
+compile 'com.google.firebase:firebase-messaging:11.0.1'
 
 // Remote Config
-compile 'com.google.firebase:firebase-config:11.0.0'
+compile 'com.google.firebase:firebase-config:11.0.1'
 
 // Invites and Dynamic Links
-compile 'com.google.firebase:firebase-invites:11.0.0'
+compile 'com.google.firebase:firebase-invites:11.0.1'
 
 // AdMob
-compile 'com.google.firebase:firebase-ads:11.0.0'
+compile 'com.google.firebase:firebase-ads:11.0.1'
 
 // App Indexing
-compile 'com.google.firebase:firebase-appindexing:11.0.0'
+compile 'com.google.firebase:firebase-appindexing:11.0.1'
 
 ```
 
@@ -261,7 +261,7 @@ androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.1.2'
 testCompile 'junit:junit:4.12'
 
 // Mockito
-testCompile 'org.mockito:mockito-core:2.8.9'
+testCompile 'org.mockito:mockito-core:2.8.47'
 
 // AssertJ
 testCompile 'org.assertj:assertj-core:3.8.0'
