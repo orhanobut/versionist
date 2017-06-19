@@ -279,7 +279,7 @@ testCompile 'org.robolectric:shadows-support-v4:3.4-rc2'
 testCompile 'org.robolectric:shadows-play-services:3.4-rc2'
 
 // MockServer
-testCompile 'com.squareup.okhttp3:mockwebserver:3.8.0'
+testCompile 'com.squareup.okhttp3:mockwebserver:3.8.1'
 
 ```
 
@@ -301,10 +301,10 @@ classpath 'org.jetbrains.kotlin:kotlin-android-extensions:1.1.2-5'
 compile 'com.google.code.gson:gson:2.8.1'
 
 // OkHttp3
-compile 'com.squareup.okhttp3:okhttp:3.8.0'
+compile 'com.squareup.okhttp3:okhttp:3.8.1'
 
 // OkHttp3 Logging Interceptor
-compile 'com.squareup.okhttp3:logging-interceptor:3.8.0'
+compile 'com.squareup.okhttp3:logging-interceptor:3.8.1'
 
 // RxJava
 compile 'io.reactivex:rxjava:1.3.0'
