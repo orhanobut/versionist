@@ -267,7 +267,7 @@ testCompile 'org.mockito:mockito-core:2.8.47'
 testCompile 'org.assertj:assertj-core:3.8.0'
 
 // Truth
-testCompile 'com.google.truth:truth:0.33'
+testCompile 'com.google.truth:truth:0.34'
 
 // Robolectric
 testCompile 'org.robolectric:robolectric:3.4-rc2'
@@ -287,10 +287,10 @@ testCompile 'com.squareup.okhttp3:mockwebserver:3.8.1'
 # Kotlin
 ```groovy
 // Kotlin Gradle Plugin
-classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.1.2-5'
+classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.1.3'
 
 // Kotlin Android Extension
-classpath 'org.jetbrains.kotlin:kotlin-android-extensions:1.1.2-5'
+classpath 'org.jetbrains.kotlin:kotlin-android-extensions:1.1.3'
 
 ```
 
