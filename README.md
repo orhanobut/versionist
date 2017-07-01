@@ -270,7 +270,7 @@ testCompile 'org.assertj:assertj-core:3.8.0'
 testCompile 'com.google.truth:truth:0.34'
 
 // Robolectric
-testCompile 'org.robolectric:robolectric:3.4-rc2'
+testCompile 'org.robolectric:robolectric:3.4-rc3'
 
 // Robolectric Shadows Support v4
 testCompile 'org.robolectric:shadows-support-v4:3.4-rc2'
