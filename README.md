@@ -5,6 +5,10 @@
 # Android Platform
 <table id="api-level-table">
 <tr><th>Platform Version</th><th>API Level</th><th>VERSION_CODE</th><th>Notes</th></tr>
+<tr><td><a href="https://developer.android.com/preview/index.html">Android O</a></td>
+<td><a href="https://developer.android.com/sdk/api_diff/26/changes.html" title="Diff Report">26</a></td>
+<td><code><a href="https://developer.android.com/reference/android/os/Build.VERSION_CODES.html#O">O</a></code></td>
+<td><a href="https://developer.android.com/preview/index.html">Platform Highlights</a></td></tr>
 <tr><td><a href="https://developer.android.com/about/versions/nougat/android-7.1.html">Android 7.1.1<br>Android 7.1</br></a></td>
 <td><a href="https://developer.android.com/sdk/api_diff/25/changes.html" title="Diff Report">25</a></td>
 <td><code><a href="https://developer.android.com/reference/android/os/Build.VERSION_CODES.html#N_MR1">N_MR1</a></code></td>
